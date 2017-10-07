@@ -39,6 +39,10 @@ public class StreamExamples {
         reduceCount();
         reduceJoin();
         groupBy();
+        groupByWithMap();
+        groupByWithNameJoined();
+        groupByWithMaxAge();
+        groupByWithAmountPerGenre();
         partitioningBy();
         toMap();
     }
@@ -119,18 +123,45 @@ public class StreamExamples {
         Map<Genre, List<Person>> byGenre = PEOPLE.stream()
                                                 .collect(groupingBy(Person::getGenre));
         System.out.println(byGenre);
+        System.out.println();
+    }
 
+    private static void groupByWithMap() {
+        System.out.println("Group people by genre and there names");
+        Map<Genre, List<String>> byGenreNames = PEOPLE.stream().collect(
+                groupingBy(Person::getGenre,
+                        mapping(Person::getName, toList())
+                ));
+
+        System.out.println(byGenreNames);
+        System.out.println();
+    }
+
+    private static void groupByWithNameJoined() {
+        System.out.println("Group people by genre and there names joined");
         Map<Genre, String> byGenreWithNameConcat = PEOPLE.stream().collect(
                 groupingBy(Person::getGenre,
                         mapping(Person::getName, joining())
                 ));
         System.out.println(byGenreWithNameConcat);
+        System.out.println();
+    }
 
+    private static void groupByWithMaxAge() {
+        System.out.println("Group by genre and max age");
         Map<Genre, Optional<Person>> byGenreWithMaxAge = PEOPLE.stream().collect(
                 groupingBy(Person::getGenre,
                         maxBy(Comparator.comparing(Person::getAge))
                 ));
         System.out.println(byGenreWithMaxAge);
+        System.out.println();
+    }
+
+    private static void groupByWithAmountPerGenre() {
+        System.out.println("Group by genre and amount");
+        Map<Genre, Long> byGenre = PEOPLE.stream().collect(
+                groupingBy(Person::getGenre, counting()));
+        System.out.println(byGenre);
         System.out.println();
     }
 
