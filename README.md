@@ -5,3 +5,5 @@ Simple examples to java 8 features as:
  - optional
  - streams
  - functional interface
+ - java time
+ - ForkJoin
