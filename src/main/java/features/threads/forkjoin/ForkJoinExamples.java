@@ -24,6 +24,7 @@ public class ForkJoinExamples {
 
     private static class FibonacciTask extends RecursiveTask<Long> {
 
+        private static final long serialVersionUID = -1862697355522801437L;
         private Long number;
         private ConcurrentMap<Long, Long> alreadyCalculated;
 
