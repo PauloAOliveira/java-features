@@ -53,16 +53,16 @@ public class StreamExamples {
         return values.stream().reduce(BigDecimal.ONE, BigDecimal::add);
     }
 
-    public Optional<String> concatAllPeopleNamesCase1() {
+    public Optional<String> concatAllPeopleNamesCase1(String delimiter) {
         return people.stream()
                 .map(Person::getName)
-                .reduce((name1, name2) -> name1.concat(" ").concat(name2));
+                .reduce((name1, name2) -> name1.concat(delimiter).concat(name2));
     }
 
-    public String concatAllPeopleNamesCase2() {
+    public String concatAllPeopleNamesCase2(String delimiter) {
         return people.stream()
                 .map(Person::getName)
-                .collect(joining(" "));
+                .collect(joining(delimiter));
     }
 
     public Map<Genre, List<Person>> getPeopleGroupedByGenre() {
@@ -76,10 +76,10 @@ public class StreamExamples {
                 ));
     }
 
-    public Map<Genre, String> concatAllPeopleNamesByGenre() {
+    public Map<Genre, String> concatAllPeopleNamesByGenre(String delimiter) {
         return people.stream().collect(
                 groupingBy(Person::getGenre,
-                        mapping(Person::getName, joining())
+                        mapping(Person::getName, joining(delimiter))
                 ));
     }
 
