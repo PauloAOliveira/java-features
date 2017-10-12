@@ -9,17 +9,28 @@ import java.util.concurrent.*;
  * */
 public class ForkJoinExamples {
 
-    public static void main(String[] args) throws InterruptedException, ExecutionException {
-        ForkJoinPool forkJoinPool1 = new ForkJoinPool(4);
-        ConcurrentHashMap<Long, Long> alreadyExist = new ConcurrentHashMap<>();
+    private ConcurrentMap<Long, Long> alreadyExist;
+    private ForkJoinPool forkJoinPool;
+
+    public ForkJoinExamples() {
+        forkJoinPool = new ForkJoinPool(3);
+
+        alreadyExist = new ConcurrentHashMap<>();
         alreadyExist.put(1L, 1L);
         alreadyExist.put(2L, 1L);
         alreadyExist.put(3L, 2L);
-        ForkJoinTask<Long> resp = forkJoinPool1.submit(new FibonacciTask(92L, alreadyExist));
+    }
+
+    public Long getFibonacciOf(Long num) throws ExecutionException, InterruptedException {
+        Long value = alreadyExist.get(num);
+
+        if(value != null)
+            return value;
+
+        ForkJoinTask<Long> resp = forkJoinPool.submit(new FibonacciTask(num, alreadyExist));
         resp.join();
 
-        System.out.println(Long.MAX_VALUE);
-        System.out.println(resp.get());
+        return resp.get();
     }
 
     private static class FibonacciTask extends RecursiveTask<Long> {

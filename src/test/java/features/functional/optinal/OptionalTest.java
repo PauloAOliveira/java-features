@@ -14,20 +14,22 @@ public class OptionalTest {
 
     private Person person;
     private City city;
+    private OptionalExamples examplesWithPerson;
+    private OptionalExamples examplesWithoutPerson;
 
     @Before
     public void setup() {
         person = new Person("Carla", 15, Genre.FEMALE);
         city = new City("São Paulo");
+        examplesWithPerson = new OptionalExamples(person);
+        examplesWithoutPerson = new OptionalExamples();
     }
 
     @Test
     public void shouldSetCity() {
-        OptionalExamples examples = new OptionalExamples(person);
+        examplesWithPerson.setCityIfPresent(city);
 
-        examples.setCityIfPresent(city);
-
-        Optional<Person> exPerson = examples.getPerson();
+        Optional<Person> exPerson = examplesWithPerson.getPerson();
 
         assertTrue(exPerson.isPresent());
         assertTrue(exPerson.get().getCity().isPresent());
@@ -36,40 +38,32 @@ public class OptionalTest {
 
     @Test
     public void shouldNotSetCity() {
-        OptionalExamples examples = new OptionalExamples(null);
+        examplesWithoutPerson.setCityIfPresent(city);
 
-        examples.setCityIfPresent(city);
-
-        Optional<Person> exPerson = examples.getPerson();
+        Optional<Person> exPerson = examplesWithoutPerson.getPerson();
 
         assertFalse(exPerson.isPresent());
     }
 
     @Test
     public void shouldReturnFirstPerson() {
-        OptionalExamples examples = new OptionalExamples(person);
-
         Person otherPerson = new Person("Maria", 35, Genre.FEMALE);
-        Person resp = examples.getIfAgeLessThanOrElse(20, otherPerson);
+        Person resp = examplesWithPerson.getIfAgeLessThanOrElse(20, otherPerson);
 
         assertEquals(person, resp);
     }
 
     @Test
     public void shouldReturnSecondPerson() {
-        OptionalExamples examples = new OptionalExamples(person);
-
         Person otherPerson = new Person("Maria", 35, Genre.FEMALE);
-        Person resp = examples.getIfAgeLessThanOrElse(10, otherPerson);
+        Person resp = examplesWithPerson.getIfAgeLessThanOrElse(10, otherPerson);
 
         assertEquals(otherPerson, resp);
     }
 
     @Test
     public void shouldReturnName() {
-        OptionalExamples examples = new OptionalExamples(person);
-
-        Optional<String> name = examples.getNameIfPresent();
+        Optional<String> name = examplesWithPerson.getNameIfPresent();
 
         assertTrue(name.isPresent());
         assertEquals("Carla", name.get());
@@ -77,20 +71,15 @@ public class OptionalTest {
 
     @Test
     public void shouldNotReturnName() {
-        OptionalExamples examples = new OptionalExamples(null);
-
-        Optional<String> name = examples.getNameIfPresent();
+        Optional<String> name = examplesWithoutPerson.getNameIfPresent();
 
         assertFalse(name.isPresent());
     }
 
     @Test
     public void shouldReturnCityName() {
-        Person otherPerson = new Person("Maria", 35, Genre.FEMALE);
-        OptionalExamples examples = new OptionalExamples(otherPerson);
-
-        examples.setCityIfPresent(city);
-        Optional<String> cityName = examples.getCityNameIfPresent();
+        examplesWithPerson.setCityIfPresent(city);
+        Optional<String> cityName = examplesWithPerson.getCityNameIfPresent();
 
         assertTrue(cityName.isPresent());
         assertEquals("São Paulo", cityName.get());
@@ -98,10 +87,8 @@ public class OptionalTest {
 
     @Test
     public void shouldNotReturnCityName() {
-        OptionalExamples examples = new OptionalExamples(null);
-
-        examples.setCityIfPresent(city);
-        Optional<String> cityName = examples.getCityNameIfPresent();
+        examplesWithoutPerson.setCityIfPresent(city);
+        Optional<String> cityName = examplesWithoutPerson.getCityNameIfPresent();
 
         assertFalse(cityName.isPresent());
     }

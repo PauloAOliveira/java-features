@@ -13,6 +13,10 @@ public class OptionalExamples {
     private static final Random RANDOM = new Random();
     private Optional<Person> person;
 
+    public OptionalExamples() {
+        person = Optional.empty();
+    }
+
     public OptionalExamples(Person person) {
         this.person = Optional.ofNullable(person);
     }
