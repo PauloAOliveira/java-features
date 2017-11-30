@@ -2,7 +2,6 @@ package features.async.reactive;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 import java.util.concurrent.Flow;
 import java.util.concurrent.Flow.Subscription;
 
@@ -11,7 +10,6 @@ import java.util.concurrent.Flow.Subscription;
  * */
 public class PrintSubscriber implements Flow.Subscriber<Long> {
 
-    private static final Random RANDOM = new Random();
     private final String name;
     private Subscription subscription;
     private List<Long> consumed = new ArrayList<>();
