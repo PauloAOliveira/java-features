@@ -22,7 +22,7 @@ public class ReactiveTest {
 
     @Test
     public void consumeWithOneSubscriber() {
-        SubmissionPublisher publisher = new SubmissionPublisher();
+        SubmissionPublisher<Long> publisher = new SubmissionPublisher<>();
         PrintSubscriber subscriber = new PrintSubscriber("Sub1");
 
         publisher.subscribe(subscriber);
@@ -43,7 +43,7 @@ public class ReactiveTest {
 
     @Test
     public void consumeWithTwoSubscriber() {
-        SubmissionPublisher publisher = new SubmissionPublisher();
+        SubmissionPublisher<Long> publisher = new SubmissionPublisher<>();
         PrintSubscriber subscriber1 = new PrintSubscriber("Sub1");
         MultiplierSubscriber subscriber2 = new MultiplierSubscriber("Mult2", 5L);
 
