@@ -56,6 +56,15 @@ public class StreamTest {
     }
 
     @Test
+    public void testIterationCase() {
+        List<String> listOfNumbers = StreamExamples.getListOfNumbersUntil(10);
+
+        List<String> expected = List.of("1", "2", "3", "4", "5", "6", "7", "8", "9");
+        assertEquals(9, listOfNumbers.size());
+        assertEquals(expected, listOfNumbers);
+    }
+
+    @Test
     public void shouldFilterByAr() {
         List<Person> resp = examples.filterPeopleNameContains("ar");
 
@@ -206,5 +215,23 @@ public class StreamTest {
         assertEquals(Integer.valueOf(45),allAgesByName.get("Fábio"));
         assertEquals(Integer.valueOf(22),allAgesByName.get("Rodrigo"));
         assertEquals(Integer.valueOf(51),allAgesByName.get("Rafael"));
+    }
+
+    @Test
+    public void shouldRemoveAllPeopleBeforeCarlos() {
+        List<Person> people = examples.removeUntilAgeGreaterThan(60);
+
+        List<Person> expected = List.of(carlos, carla, fabio, rodrigo, rafael);
+        assertEquals(5, people.size());
+        assertEquals(expected, people);
+    }
+
+    @Test
+    public void shouldReturnAllPeopleBeforeCarlos() {
+        List<Person> people = examples.returnUntilAgeLessThan(60);
+
+        List<Person> expected = List.of(joao, maria1, maria2, nelson);
+        assertEquals(4, people.size());
+        assertEquals(expected, people);
     }
 }

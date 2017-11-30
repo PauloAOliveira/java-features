@@ -5,12 +5,9 @@ import features.functional.domain.Genre;
 import features.functional.domain.Person;
 
 import java.util.Optional;
-import java.util.OptionalInt;
-import java.util.Random;
 
 public class OptionalExamples {
 
-    private static final Random RANDOM = new Random();
     private Optional<Person> person;
 
     public OptionalExamples() {
@@ -25,8 +22,26 @@ public class OptionalExamples {
         return person;
     }
 
+    /**
+     * Works only on Java 9
+     * */
+    public Optional<Person> getPersonOrDefault() {
+        return person.or(() -> Optional.of(getDefault()));
+    }
+
     public void setCityIfPresent(City city) {
         person.ifPresent(p -> p.setCity(city));
+    }
+
+    /**
+     * Works only on Java 9
+     * */
+    public void setCityIfPresentOrCreateDefault(City city) {
+        person.ifPresentOrElse(p -> p.setCity(city), () -> {
+            Person def = getDefault();
+            def.setCity(city);
+            person = Optional.of(def);
+        });
     }
 
     public Person getIfAgeLessThanOrElse(Integer age, Person other) {
@@ -39,5 +54,9 @@ public class OptionalExamples {
 
     public Optional<String> getCityNameIfPresent() {
         return person.flatMap(Person::getCity).map(City::getName);
+    }
+
+    private Person getDefault() {
+        return new Person("default", 1, Genre.FEMALE);
     }
 }

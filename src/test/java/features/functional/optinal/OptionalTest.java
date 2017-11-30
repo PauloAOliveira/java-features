@@ -92,4 +92,38 @@ public class OptionalTest {
 
         assertFalse(cityName.isPresent());
     }
+
+    @Test
+    public void shouldNotGetDefault() {
+        Optional<Person> response = examplesWithPerson.getPersonOrDefault();
+
+        assertTrue(response.isPresent());
+        assertEquals(person, response.get());
+    }
+
+    @Test
+    public void shouldGetDefault() {
+        Optional<Person> response = examplesWithoutPerson.getPersonOrDefault();
+
+        assertTrue(response.isPresent());
+        assertEquals("default", response.get().getName());
+        assertEquals(Integer.valueOf(1), response.get().getAge());
+        assertEquals(Genre.FEMALE, response.get().getGenre());
+    }
+
+    @Test
+    public void shouldSetCityOnDefault() {
+        OptionalExamples examples = new OptionalExamples();
+        Optional<Person> person = examples.getPerson();
+
+        assertFalse(person.isPresent());
+
+        Person def = new Person("default", 1, Genre.FEMALE);
+        City city = new City("City");
+        def.setCity(city);
+        examples.setCityIfPresentOrCreateDefault(city);
+
+        assertTrue(examples.getPerson().isPresent());
+        assertEquals(def, examples.getPerson().get());
+    }
 }

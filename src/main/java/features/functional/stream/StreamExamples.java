@@ -6,6 +6,7 @@ import features.functional.domain.Person;
 import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.*;
 
@@ -17,6 +18,17 @@ public class StreamExamples {
     public StreamExamples(List<Person> people, List<BigDecimal> values) {
         this.people = people;
         this.values = values;
+    }
+
+    /**
+     * Index based loop without for
+     *
+     * Works only on Java 9
+     * */
+    public static List<String> getListOfNumbersUntil(int max) {
+        return Stream.iterate(1, i -> i < max, i-> ++i)
+                .map(Object::toString)
+                .collect(toList());
     }
 
     public List<Person> filterPeopleNameContains(String value) {
@@ -104,5 +116,23 @@ public class StreamExamples {
                 Person::getName,
                 Person::getAge,
                 (p1, p2) -> p1 + p2));
+    }
+
+    /**
+     * Works only on Java 9
+     * */
+    public List<Person> removeUntilAgeGreaterThan(Integer age){
+        return people.stream()
+                .dropWhile(person -> person.getAge().compareTo(age) <= 0)
+                .collect(toList());
+    }
+
+    /**
+     * Works only on Java 9
+     * */
+    public List<Person> returnUntilAgeLessThan(Integer age) {
+        return people.stream()
+                .takeWhile(person -> person.getAge().compareTo(age) <= 0)
+                .collect(toList());
     }
 }
