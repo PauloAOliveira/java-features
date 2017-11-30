@@ -1,4 +1,4 @@
-package features.threads.completable.future;
+package features.async.completable.future;
 
 import java.util.Random;
 import java.util.concurrent.CompletableFuture;

@@ -1,4 +1,4 @@
-package features.threads.forkjoin;
+package features.async.forkjoin;
 
 import java.util.Arrays;
 import java.util.Collection;

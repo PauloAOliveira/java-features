@@ -1,4 +1,4 @@
-package features.threads.forkjoin;
+package features.async.forkjoin;
 
 import org.junit.Before;
 import org.junit.Test;
