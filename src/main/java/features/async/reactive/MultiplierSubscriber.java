@@ -6,6 +6,9 @@ import java.util.Random;
 import java.util.concurrent.Flow;
 import java.util.concurrent.Flow.Subscription;
 
+/**
+ * Works only on Java 9
+ * */
 public class MultiplierSubscriber implements Flow.Subscriber<Long> {
 
     private static final Random RANDOM = new Random();
