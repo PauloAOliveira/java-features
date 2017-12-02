@@ -30,7 +30,7 @@ public class FunctionalExamples {
         }
     }
 
-    static class NumberExtends implements Numbers {
+    static private class NumberExtends implements Numbers {
     }
 
     public static void main(String[] args) {

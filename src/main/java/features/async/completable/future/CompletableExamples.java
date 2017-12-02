@@ -1,7 +1,5 @@
 package features.async.completable.future;
 
-import com.jayway.awaitility.Awaitility;
-
 import java.time.LocalDateTime;
 import java.util.Random;
 import java.util.concurrent.*;
@@ -55,7 +53,7 @@ public class CompletableExamples {
     /**
      * Works only on Java 9
      * */
-    private static void simpleDelayCase() throws InterruptedException {
+    private static void simpleDelayCase() throws InterruptedException, TimeoutException, ExecutionException {
         System.out.println("simpleDelayCase");
         System.out.println(LocalDateTime.now());
         CompletableFuture<Void> future = CompletableFuture.supplyAsync(() -> {
@@ -69,7 +67,7 @@ public class CompletableExamples {
         System.out.println();
     }
 
-    private static void simpleAcceptCase() throws InterruptedException {
+    private static void simpleAcceptCase() throws InterruptedException, TimeoutException, ExecutionException {
         System.out.println("simpleAcceptCase");
         CompletableFuture<Void> future = CompletableFuture.supplyAsync(CompletableExamples::getUserId)
                 .thenAccept(id -> System.out.println("Finished getting id = " + id));
@@ -78,7 +76,7 @@ public class CompletableExamples {
         System.out.println();
     }
 
-    private static void simpleExceptionCase() throws InterruptedException {
+    private static void simpleExceptionCase() throws InterruptedException, TimeoutException, ExecutionException {
         System.out.println("simpleExceptionCase");
         CompletableFuture<Void> future = CompletableFuture.supplyAsync(() -> {
             waiting();
@@ -91,11 +89,10 @@ public class CompletableExamples {
         .thenAccept(id -> System.out.println("Finished getting id = "+id));
 
         await(future, 6000);
-        Thread.onSpinWait();
         System.out.println();
     }
 
-    private static void simpleHandleCase() throws InterruptedException {
+    private static void simpleHandleCase() throws InterruptedException, TimeoutException, ExecutionException {
         System.out.println("simpleHandleCase");
 
         CompletableFuture<Void> future = CompletableFuture.supplyAsync(() -> {
@@ -133,7 +130,7 @@ public class CompletableExamples {
         System.out.println();
     }
 
-    private static void simpleEitherCase() throws InterruptedException {
+    private static void simpleEitherCase() throws InterruptedException, TimeoutException, ExecutionException {
         System.out.println("simpleEitherCase");
         CompletableFuture<Integer> case1 = CompletableFuture.supplyAsync(() -> {
             waiting();
@@ -184,9 +181,7 @@ public class CompletableExamples {
         }
     }
 
-    private static void await(Future<?> future, int timeout) {
-        Awaitility.await()
-                .atMost(timeout, TimeUnit.MILLISECONDS)
-                .until(future::isDone);
+    private static <T> T await(Future<T> future, int timeout) throws InterruptedException, ExecutionException, TimeoutException {
+        return future.get(timeout, TimeUnit.MILLISECONDS);
     }
 }
