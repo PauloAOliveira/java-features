@@ -1,8 +1,10 @@
 package features.async.completable.future;
 
 import java.time.LocalDateTime;
+import java.util.Arrays;
 import java.util.Random;
 import java.util.concurrent.*;
+import java.util.stream.Stream;
 
 public class CompletableExamples {
 
@@ -17,6 +19,7 @@ public class CompletableExamples {
         simpleHandleCase();
         simpleCombinedCase();
         simpleEitherCase();
+        getAllOf();
     }
 
     private static void simpleCompleteCase() throws InterruptedException, TimeoutException, ExecutionException {
@@ -150,6 +153,22 @@ public class CompletableExamples {
         });
 
         await(future, 6000);
+        System.out.println();
+    }
+
+    private static void getAllOf() {
+        System.out.println("getAllOf");
+        CompletableFuture[] futureIds = Stream.generate(() -> CompletableFuture.supplyAsync(CompletableExamples::getUserId))
+                .limit(20)
+                .toArray(CompletableFuture[]::new);
+
+        System.out.println("doing join");
+        CompletableFuture.allOf(futureIds).join();
+        System.out.println("join done");
+
+        Arrays.stream(futureIds)
+                .map(CompletableFuture::join)
+                .forEach(System.out::println);
         System.out.println();
     }
 
