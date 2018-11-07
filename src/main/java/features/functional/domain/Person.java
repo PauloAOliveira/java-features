@@ -1,5 +1,6 @@
 package features.functional.domain;
 
+import java.util.Objects;
 import java.util.Optional;
 
 public class Person {
@@ -9,9 +10,9 @@ public class Person {
     private City city;
 
     public Person(String name, Integer age, Genre genre) {
-        this.name = name;
-        this.age = age;
-        this.genre = genre;
+        this.name = Objects.requireNonNull(name);
+        this.age = Objects.requireNonNull(age);
+        this.genre = Objects.requireNonNull(genre);
     }
 
     public String getName() {

@@ -18,8 +18,12 @@ public class OptionalExamples {
         this.person = Optional.ofNullable(person);
     }
 
-    public Optional<Person> getPerson() {
+    public Optional<Person> getOptionalPerson() {
         return person;
+    }
+
+    public Person getPerson() {
+        return person.orElseThrow(() -> new IllegalStateException("There is no person"));
     }
 
     /**
@@ -28,6 +32,8 @@ public class OptionalExamples {
     public Optional<Person> getPersonOrDefault() {
         return person.or(() -> Optional.of(getDefault()));
     }
+
+
 
     public void setCityIfPresent(City city) {
         person.ifPresent(p -> p.setCity(city));

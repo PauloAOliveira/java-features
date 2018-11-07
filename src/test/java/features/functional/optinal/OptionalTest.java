@@ -25,11 +25,16 @@ public class OptionalTest {
         examplesWithoutPerson = new OptionalExamples();
     }
 
+    @Test(expected = IllegalStateException.class)
+    public void shouldThrowException() {
+        examplesWithoutPerson.getPerson();
+    }
+
     @Test
     public void shouldSetCity() {
         examplesWithPerson.setCityIfPresent(city);
 
-        Optional<Person> exPerson = examplesWithPerson.getPerson();
+        Optional<Person> exPerson = examplesWithPerson.getOptionalPerson();
 
         assertTrue(exPerson.isPresent());
         assertTrue(exPerson.get().getCity().isPresent());
@@ -40,7 +45,7 @@ public class OptionalTest {
     public void shouldNotSetCity() {
         examplesWithoutPerson.setCityIfPresent(city);
 
-        Optional<Person> exPerson = examplesWithoutPerson.getPerson();
+        Optional<Person> exPerson = examplesWithoutPerson.getOptionalPerson();
 
         assertFalse(exPerson.isPresent());
     }
@@ -114,7 +119,7 @@ public class OptionalTest {
     @Test
     public void shouldSetCityOnDefault() {
         OptionalExamples examples = new OptionalExamples();
-        Optional<Person> person = examples.getPerson();
+        Optional<Person> person = examples.getOptionalPerson();
 
         assertFalse(person.isPresent());
 
@@ -123,7 +128,7 @@ public class OptionalTest {
         def.setCity(city);
         examples.setCityIfPresentOrCreateDefault(city);
 
-        assertTrue(examples.getPerson().isPresent());
-        assertEquals(def, examples.getPerson().get());
+        assertTrue(examples.getOptionalPerson().isPresent());
+        assertEquals(def, examples.getOptionalPerson().get());
     }
 }

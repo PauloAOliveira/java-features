@@ -10,7 +10,15 @@ public class ListExamples {
      * Example of method to replace Arrays.asList(...)
      * Creates a immutable list
      * */
-    public List<Integer> factoryMethod() {
+    public static List<Integer> factoryMethod() {
         return List.of(1,2,3,4,5,6,7,8,9,10);
+    }
+
+    /**
+     * Works only on Java 10
+     * */
+    public static List<Integer> copyOf() {
+        final var list = List.of(2, 4, 6);
+        return List.copyOf(list);
     }
 }
