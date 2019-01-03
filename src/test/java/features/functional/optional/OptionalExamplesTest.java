@@ -1,4 +1,4 @@
-package features.functional.optinal;
+package features.functional.optional;
 
 import features.functional.domain.City;
 import features.functional.domain.Genre;
@@ -10,7 +10,7 @@ import java.util.Optional;
 
 import static org.junit.Assert.*;
 
-public class OptionalTest {
+public class OptionalExamplesTest {
 
     private Person person;
     private City city;

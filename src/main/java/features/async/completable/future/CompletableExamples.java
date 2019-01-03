@@ -12,7 +12,7 @@ public class CompletableExamples {
 
     public static void main(String[] args) throws Exception {
         simpleCompleteCase();
-        simpleCompleteAsynCase();
+        simpleCompleteAsyncCase();
         simpleDelayCase();
         simpleAcceptCase();
         simpleExceptionCase();
@@ -42,7 +42,7 @@ public class CompletableExamples {
     /**
      * Works only on Java 9
      * */
-    private static void simpleCompleteAsynCase() throws InterruptedException, TimeoutException, ExecutionException {
+    private static void simpleCompleteAsyncCase() throws InterruptedException, TimeoutException, ExecutionException {
         System.out.println("simpleCompleteAsynCase");
         CompletableFuture<Integer> future = new CompletableFuture<>();
         future.completeAsync(CompletableExamples::getUserId);
@@ -200,7 +200,7 @@ public class CompletableExamples {
         }
     }
 
-    private static <T> T await(Future<T> future, int timeout) throws InterruptedException, ExecutionException, TimeoutException {
-        return future.get(timeout, TimeUnit.MILLISECONDS);
+    private static <T> void await(Future<T> future, int timeout) throws InterruptedException, ExecutionException, TimeoutException {
+        future.get(timeout, TimeUnit.MILLISECONDS);
     }
 }

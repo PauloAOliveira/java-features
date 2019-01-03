@@ -14,7 +14,7 @@ public class PrintSubscriber implements Flow.Subscriber<Long> {
     private Subscription subscription;
     private List<Long> consumed = new ArrayList<>();
 
-    public PrintSubscriber(String name) {
+    PrintSubscriber(String name) {
         this.name = name;
     }
 
@@ -41,7 +41,7 @@ public class PrintSubscriber implements Flow.Subscriber<Long> {
         System.out.println("Complete");
     }
 
-    public List<Long> getConsumed() {
+    List<Long> getConsumed() {
         return consumed;
     }
 }

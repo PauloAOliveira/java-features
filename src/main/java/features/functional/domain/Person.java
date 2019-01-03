@@ -45,7 +45,7 @@ public class Person {
         if (!name.equals(person.name)) return false;
         if (!age.equals(person.age)) return false;
         if (genre != person.genre) return false;
-        return city != null ? city.equals(person.city) : person.city == null;
+        return Objects.equals(city, person.city);
     }
 
     @Override

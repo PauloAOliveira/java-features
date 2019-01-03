@@ -17,7 +17,7 @@ public class ListExamples {
     /**
      * Works only on Java 10
      * */
-    public static List<Integer> copyOf() {
+    static List<Integer> copyOf() {
         final var list = List.of(2, 4, 6);
         return List.copyOf(list);
     }

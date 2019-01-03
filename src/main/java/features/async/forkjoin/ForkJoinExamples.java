@@ -7,12 +7,12 @@ import java.util.concurrent.*;
 /**
  * Based on http://www.baeldung.com/java-fork-join
  * */
-public class ForkJoinExamples {
+class ForkJoinExamples {
 
     private ConcurrentMap<Long, Long> alreadyExist;
     private ForkJoinPool forkJoinPool;
 
-    public ForkJoinExamples() {
+    ForkJoinExamples() {
         forkJoinPool = new ForkJoinPool(3);
 
         alreadyExist = new ConcurrentHashMap<>();
@@ -21,7 +21,7 @@ public class ForkJoinExamples {
         alreadyExist.put(3L, 2L);
     }
 
-    public Long getFibonacciOf(Long num) throws ExecutionException, InterruptedException {
+    Long getFibonacciOf(Long num) throws ExecutionException, InterruptedException {
         Long value = alreadyExist.get(num);
 
         if(value != null)

@@ -15,7 +15,7 @@ public class MultiplierSubscriber implements Flow.Subscriber<Long> {
     private Subscription subscription;
     private List<Long> consumed = new ArrayList<>();
 
-    public MultiplierSubscriber(String name, Long multiplier) {
+    MultiplierSubscriber(String name, Long multiplier) {
         this.name = name;
         this.multiplier = multiplier;
     }
@@ -44,7 +44,7 @@ public class MultiplierSubscriber implements Flow.Subscriber<Long> {
         System.out.println("Complete");
     }
 
-    public List<Long> getConsumed() {
+    List<Long> getConsumed() {
         return consumed;
     }
 }
