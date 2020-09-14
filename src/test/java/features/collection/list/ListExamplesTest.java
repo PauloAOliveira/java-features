@@ -1,18 +1,20 @@
 package features.collection.list;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class ListExamplesTest {
 
-    @Test(expected = UnsupportedOperationException.class)
+    @Test
     public void shouldThrowOnClear() {
         final var integers = ListExamples.copyOf();
-        integers.clear();
+        Assertions.assertThrows(UnsupportedOperationException.class, integers::clear);
     }
 
-    @Test(expected = UnsupportedOperationException.class)
+    @Test
     public void shouldThrowExceptionOnAdd() {
         final var integers = ListExamples.copyOf();
-        integers.add(10);
+        Assertions.assertThrows(UnsupportedOperationException.class, () -> integers.add(10));
     }
 }

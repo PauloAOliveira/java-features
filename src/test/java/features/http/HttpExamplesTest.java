@@ -1,15 +1,21 @@
 package features.http;
 
-import org.junit.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import java.util.Optional;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class HttpExamplesTest {
 
-    private HttpExamples httpExamples = new HttpExamples();
+    private HttpExamples httpExamples;
+
+    @BeforeEach
+    void setUp() {
+        httpExamples = new HttpExamples();
+    }
 
     @Test
     public void testGet() {

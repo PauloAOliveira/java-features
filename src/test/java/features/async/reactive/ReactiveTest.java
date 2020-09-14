@@ -1,9 +1,8 @@
 package features.async.reactive;
 
 import com.jayway.awaitility.Awaitility;
-import org.junit.Before;
-import org.junit.Test;
-
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -15,7 +14,7 @@ public class ReactiveTest {
 
     private Random random;
 
-    @Before
+    @BeforeEach
     public void setup() {
         random = new Random();
     }
@@ -28,8 +27,7 @@ public class ReactiveTest {
         publisher.subscribe(subscriber);
 
         List<Long> toConsume = new ArrayList<>();
-        Stream.iterate(1L, i -> i)
-                .takeWhile(i -> toConsume.size() < 1000)
+        Stream.iterate(1L, i -> toConsume.size() < 1000, i -> i)
                 .forEach(i -> toConsume.add(random.nextLong()));
 
         toConsume.forEach(value -> {
@@ -51,8 +49,7 @@ public class ReactiveTest {
         publisher.subscribe(subscriber2);
 
         List<Long> toConsume = new ArrayList<>();
-        Stream.iterate(1L, i -> i)
-                .takeWhile(i -> toConsume.size() < 1000)
+        Stream.iterate(1L, i -> toConsume.size() < 1000, i -> i)
                 .forEach(i -> toConsume.add(random.nextLong()));
 
         toConsume.forEach(value -> {

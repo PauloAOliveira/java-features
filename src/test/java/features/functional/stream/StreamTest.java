@@ -1,19 +1,17 @@
 package features.functional.stream;
 
-import features.functional.domain.Genre;
-import features.functional.domain.Person;
-import org.junit.Before;
-import org.junit.Test;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import features.functional.domain.Genre;
+import features.functional.domain.Person;
 
 public class StreamTest {
 
@@ -28,7 +26,7 @@ public class StreamTest {
     private Person rafael;
     private StreamExamples examples;
 
-    @Before
+    @BeforeEach
     public void setup() {
         joao = new Person("João", 31, Genre.MALE);
         maria1 = new Person("Maria", 28, Genre.FEMALE);
@@ -180,8 +178,14 @@ public class StreamTest {
         Map<Genre, Optional<Person>> maxAge = examples.getPeopleMaxAgeByGenre();
 
         assertEquals(2, maxAge.keySet().size());
-        assertEquals(Integer.valueOf(67), maxAge.get(Genre.MALE).get().getAge());
-        assertEquals(Integer.valueOf(35), maxAge.get(Genre.FEMALE).get().getAge());
+
+        final var malePersons = maxAge.get(Genre.MALE);
+        final var femalePersons = maxAge.get(Genre.FEMALE);
+
+        assertTrue(malePersons.isPresent());
+        assertTrue(femalePersons.isPresent());
+        assertEquals(Integer.valueOf(67), malePersons.get().getAge());
+        assertEquals(Integer.valueOf(35), femalePersons.get().getAge());
     }
 
     @Test

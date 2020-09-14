@@ -1,14 +1,15 @@
 package features.functional.optional;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import java.util.Optional;
 import features.functional.domain.City;
 import features.functional.domain.Genre;
 import features.functional.domain.Person;
-import org.junit.Before;
-import org.junit.Test;
-
-import java.util.Optional;
-
-import static org.junit.Assert.*;
 
 public class OptionalExamplesTest {
 
@@ -17,7 +18,7 @@ public class OptionalExamplesTest {
     private OptionalExamples examplesWithPerson;
     private OptionalExamples examplesWithoutPerson;
 
-    @Before
+    @BeforeEach
     public void setup() {
         person = new Person("Carla", 15, Genre.FEMALE);
         city = new City("São Paulo");
@@ -25,9 +26,9 @@ public class OptionalExamplesTest {
         examplesWithoutPerson = new OptionalExamples();
     }
 
-    @Test(expected = IllegalStateException.class)
+    @Test
     public void shouldThrowException() {
-        examplesWithoutPerson.getPerson();
+        Assertions.assertThrows(IllegalStateException.class, () -> examplesWithoutPerson.getPerson());
     }
 
     @Test

@@ -1,28 +1,31 @@
 package features.async.forkjoin;
 
-import org.junit.Before;
-import org.junit.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
 import java.util.concurrent.ExecutionException;
-
-import static org.junit.Assert.*;
+import java.util.concurrent.TimeUnit;
 
 public class ForkJoinExamplesTest {
 
     private ForkJoinExamples forkJoinExamples;
 
-    @Before
+    @BeforeEach
     public void setup() {
         forkJoinExamples = new ForkJoinExamples();
     }
 
-    @Test(timeout = 250L)
+    @Test
+    @Timeout(value = 250, unit = TimeUnit.MILLISECONDS)
     public void shouldReturnCorrectValue() throws ExecutionException, InterruptedException {
         Long fibonacci = forkJoinExamples.getFibonacciOf(10L);
         assertEquals(Long.valueOf(55L), fibonacci);
     }
 
-    @Test(timeout = 250L)
+    @Test
+    @Timeout(value = 250, unit = TimeUnit.MILLISECONDS)
     public void shouldReturnCorrectValues() throws ExecutionException, InterruptedException {
 
         Long fibonacci = forkJoinExamples.getFibonacciOf(10L);
