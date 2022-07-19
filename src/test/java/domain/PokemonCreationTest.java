@@ -1,6 +1,7 @@
 package domain;
 
-import domain.Pokemon.Type;
+import br.com.java.features.domain.Pokemon;
+import br.com.java.features.domain.Pokemon.Type;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import java.util.List;

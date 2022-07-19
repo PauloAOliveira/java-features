@@ -1,4 +1,4 @@
-package domain;
+package br.com.java.features.domain;
 
 import java.util.Comparator;
 import java.util.List;

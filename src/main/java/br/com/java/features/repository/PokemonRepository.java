@@ -1,6 +1,6 @@
-package domain.loader;
+package br.com.java.features.repository;
 
-import domain.Pokemon;
+import br.com.java.features.domain.Pokemon;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -11,27 +11,24 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import static com.google.common.base.Preconditions.checkArgument;
 
-public class Loader {
+public class PokemonRepository {
 
-    //Fixed amount of existing pokemon inside the "database"
-    public static final int MIN_NUMBER = 1;
-    public static final int MAX_NUMBER = 905;
+    private static final List<Pokemon> pokemons;
 
-    public static List<Pokemon> load() throws IOException {
-        return load(MIN_NUMBER, MAX_NUMBER);
+    static {
+        try {
+            pokemons = load();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
-    /**
-     * Max number of existing pokemon on MAX_NUMBER
-     * @param begin - inclusive
-     * @param end - inclusive
-     * */
-    public static List<Pokemon> load(final int begin, final int end) throws IOException {
-        checkArgument(begin >= MIN_NUMBER);
-        checkArgument(end <= MAX_NUMBER);
-        checkArgument(begin < end);
+    public static List<Pokemon> findAll() {
+        return pokemons;
+    }
+
+    private static List<Pokemon> load() throws IOException {
         try(final Stream<String> pokemons = Files.lines(Path.of("src", "test", "resources", "pokemons.csv"))) {
             return pokemons
                     .map(pokemon -> {
@@ -57,10 +54,7 @@ public class Loader {
                         }
                         return new Pokemon(name, number, height, weight, category, abilities, types, weaknesses, evolutions);
                     })
-                    .dropWhile(p -> p.getNumber() < begin)
-                    .takeWhile(p -> p.getNumber() <= end)
                     .collect(Collectors.toList());
         }
     }
-
 }

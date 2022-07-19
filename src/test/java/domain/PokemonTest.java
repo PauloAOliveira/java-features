@@ -1,9 +1,9 @@
 package domain;
 
-import domain.loader.Loader;
+import br.com.java.features.domain.Pokemon;
+import br.com.java.features.repository.PokemonRepository;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 import java.util.Set;
@@ -16,8 +16,8 @@ class PokemonTest {
     private static List<Pokemon> pokemons;
 
     @BeforeAll
-    static void setup() throws IOException {
-        pokemons = Loader.load();
+    static void setup() {
+        pokemons = PokemonRepository.findAll();
     }
 
     @Test

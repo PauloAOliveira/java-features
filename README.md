@@ -63,6 +63,7 @@ Starting from java 8 up to 11
 
 #### Collections
 - List factory methods
+  - Search for List_Factory
 - Set factory methods
 - Map factorey methods
 
