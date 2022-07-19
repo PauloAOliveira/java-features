@@ -1,0 +1,905 @@
+Bulbasaur,1,0.7,6.9,Seed,Overgrow,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,Ivysaur;Venusaur
+Ivysaur,2,1.0,13.0,Seed,Overgrow,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,Venusaur
+Venusaur,3,2.0,100.0,Seed,Overgrow,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,
+Charmander,4,0.6,8.5,Lizard,Blaze,FIRE,ROCK;WATER;GROUND,Charmeleon;Charizard
+Charmeleon,5,1.1,19.0,Flame,Blaze,FIRE,ROCK;WATER;GROUND,Charizard
+Charizard,6,1.7,90.5,Flame,Blaze,FIRE;FLYING;DRAGON,ELECTRIC;ROCK;WATER,
+Squirtle,7,0.5,9.0,Tiny Turtle,Torrent,WATER,ELECTRIC;GRASS,Wartortle;Blastoise
+Wartortle,8,1.0,22.5,Turtle,Torrent,WATER,ELECTRIC;GRASS,Blastoise
+Blastoise,9,1.6,85.5,Shellfish,Torrent,WATER,ELECTRIC;GRASS,
+Caterpie,10,0.3,2.9,Worm,Shield Dust,BUG,ROCK;FLYING;FIRE,Metapod;Butterfree
+Metapod,11,0.7,9.9,Cocoon,Shed Skin,BUG,ROCK;FLYING;FIRE,Butterfree
+Butterfree,12,1.1,32.0,Butterfly,Compound Eyes,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,
+Weedle,13,0.3,3.2,Hairy Bug,Shield Dust,BUG;POISON,ROCK;PSYCHIC;FLYING;FIRE,Kakuna;Beedrill
+Kakuna,14,0.6,10.0,Cocoon,Shed Skin,BUG;POISON,ROCK;PSYCHIC;FLYING;FIRE,Beedrill
+Beedrill,15,1.0,29.5,Poison Bee,Swarm,BUG;POISON,ROCK;PSYCHIC;FLYING;FIRE,
+Pidgey,16,0.3,1.8,Tiny Bird,Keen Eye;Tangled Feet,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Pidgeotto;Pidgeot
+Pidgeotto,17,1.1,30.0,Bird,Keen Eye;Tangled Feet,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Pidgeot
+Pidgeot,18,1.5,39.5,Bird,Keen Eye;Tangled Feet,NORMAL;FLYING,ELECTRIC;ICE;ROCK,
+Rattata,19,0.3,3.5,Mouse,Run Away;Guts,NORMAL;DARK,FIGHTING,Raticate
+Raticate,20,0.7,18.5,Mouse,Run Away;Guts,NORMAL;DARK,FIGHTING,
+Spearow,21,0.3,2.0,Tiny Bird,Keen Eye,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Fearow
+Fearow,22,1.2,38.0,Beak,Keen Eye,NORMAL;FLYING,ELECTRIC;ICE;ROCK,
+Ekans,23,2.0,6.9,Snake,Intimidate;Shed Skin,POISON,PSYCHIC;GROUND,Arbok
+Arbok,24,3.5,65.0,Cobra,Intimidate;Shed Skin,POISON,PSYCHIC;GROUND,
+Pikachu,25,0.4,6.0,Mouse,Static,ELECTRIC,GROUND,Raichu
+Raichu,26,0.8,30.0,Mouse,Static,ELECTRIC;PSYCHIC,GROUND,
+Sandshrew,27,0.6,12.0,Mouse,Sand Veil,GROUND;ICE;STEEL,ICE;WATER;GRASS,Sandslash
+Sandslash,28,1.0,29.5,Mouse,Sand Veil,GROUND;ICE;STEEL,ICE;WATER;GRASS,
+Nidoran♀,29,0.4,7.0,Poison Pin,Poison Point;Rivalry,POISON,PSYCHIC;GROUND,Nidorina;Nidoqueen
+Nidorina,30,0.8,20.0,Poison Pin,Poison Point;Rivalry,POISON,PSYCHIC;GROUND,Nidoqueen
+Nidoqueen,31,1.3,60.0,Drill,Poison Point;Rivalry,POISON;GROUND,ICE;PSYCHIC;WATER;GROUND,
+Nidoran♂,32,0.5,9.0,Poison Pin,Poison Point;Rivalry,POISON,PSYCHIC;GROUND,Nidorino;Nidoking
+Nidorino,33,0.9,19.5,Poison Pin,Poison Point;Rivalry,POISON,PSYCHIC;GROUND,Nidoking
+Nidoking,34,1.4,62.0,Drill,Poison Point;Rivalry,POISON;GROUND,ICE;PSYCHIC;WATER;GROUND,
+Clefairy,35,0.6,7.5,Fairy,Cute Charm;Magic Guard,FAIRY,STEEL;POISON,Clefable
+Clefable,36,1.3,40.0,Fairy,Cute Charm;Magic Guard,FAIRY,STEEL;POISON,
+Vulpix,37,0.6,9.9,Fox,Flash Fire,FIRE;ICE,ROCK;WATER;GROUND,Ninetales
+Ninetales,38,1.1,19.9,Fox,Flash Fire,FIRE;ICE;FAIRY,ROCK;WATER;GROUND,
+Jigglypuff,39,0.5,5.5,Balloon,Competitive;Cute Charm,NORMAL;FAIRY,STEEL;POISON,Wigglytuff
+Wigglytuff,40,1.0,12.0,Balloon,Competitive;Cute Charm,NORMAL;FAIRY,STEEL;POISON,
+Zubat,41,0.8,7.5,Bat,Inner Focus,POISON;FLYING,ELECTRIC;ICE;ROCK;PSYCHIC,Golbat;Crobat
+Golbat,42,1.6,55.0,Bat,Inner Focus,POISON;FLYING,ELECTRIC;ICE;ROCK;PSYCHIC,Crobat
+Oddish,43,0.5,5.4,Weed,Chlorophyll,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,Gloom;Vileplume;Bellossom
+Gloom,44,0.8,8.6,Weed,Chlorophyll,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,Vileplume;Bellossom
+Vileplume,45,1.2,18.6,Flower,Chlorophyll,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,Bellossom
+Paras,46,0.3,5.4,Mushroom,Dry Skin;Effect Spore,BUG;GRASS,ICE;ROCK;BUG;FLYING;FIRE;POISON,Parasect
+Parasect,47,1.0,29.5,Mushroom,Dry Skin;Effect Spore,BUG;GRASS,ICE;ROCK;BUG;FLYING;FIRE;POISON,
+Venonat,48,1.0,30.0,Insect,Compound Eyes;Tinted Lens,BUG;POISON,ROCK;PSYCHIC;FLYING;FIRE,Venomoth
+Venomoth,49,1.5,12.5,Poison Moth,Shield Dust;Tinted Lens,BUG;POISON,ROCK;PSYCHIC;FLYING;FIRE,
+Diglett,50,0.2,0.8,Mole,Sand Veil;Arena Trap,GROUND;STEEL,ICE;WATER;GRASS,Dugtrio
+Dugtrio,51,0.7,33.3,Mole,Sand Veil;Arena Trap,GROUND;STEEL,ICE;WATER;GRASS,
+Meowth,52,0.4,4.2,Scratch Cat,Technician;Pickup,NORMAL;DARK;STEEL,FIGHTING,Persian
+Persian,53,1.0,32.0,Classy Cat,Technician;Limber,NORMAL;DARK,FIGHTING,
+Psyduck,54,0.8,19.6,Duck,Damp;Cloud Nine,WATER,ELECTRIC;GRASS,Golduck
+Golduck,55,1.7,76.6,Duck,Damp;Cloud Nine,WATER,ELECTRIC;GRASS,
+Mankey,56,0.5,28.0,Pig Monkey,Vital Spirit;Anger Point,FIGHTING,PSYCHIC;FAIRY;FLYING,Primeape
+Primeape,57,1.0,32.0,Pig Monkey,Vital Spirit;Anger Point,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Growlithe,58,0.7,19.0,Puppy,Intimidate;Flash Fire,FIRE;ROCK,ROCK;WATER;GROUND,Arcanine
+Arcanine,59,1.9,155.0,Legendary,Intimidate;Flash Fire,FIRE;ROCK,ROCK;WATER;GROUND,
+Poliwag,60,0.6,12.4,Tadpole,Damp;Water Absorb,WATER,ELECTRIC;GRASS,Poliwhirl;Poliwrath;Politoed
+Poliwhirl,61,1.0,20.0,Tadpole,Damp;Water Absorb,WATER,ELECTRIC;GRASS,Poliwrath;Politoed
+Poliwrath,62,1.3,54.0,Tadpole,Damp;Water Absorb,WATER;FIGHTING,ELECTRIC;FAIRY;PSYCHIC;FLYING;GRASS,Politoed
+Abra,63,0.9,19.5,Psi,Synchronize;Inner Focus,PSYCHIC,GHOST;BUG;DARK,Kadabra;Alakazam
+Kadabra,64,1.3,56.5,Psi,Synchronize;Inner Focus,PSYCHIC,GHOST;BUG;DARK,Alakazam
+Alakazam,65,1.5,48.0,Psi,Synchronize;Inner Focus,PSYCHIC,GHOST;BUG;DARK,
+Machop,66,0.8,19.5,Superpower,Guts;No Guard,FIGHTING,PSYCHIC;FAIRY;FLYING,Machoke;Machamp
+Machoke,67,1.5,70.5,Superpower,Guts;No Guard,FIGHTING,PSYCHIC;FAIRY;FLYING,Machamp
+Machamp,68,1.6,130.0,Superpower,Guts;No Guard,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Bellsprout,69,0.7,4.0,Flower,Chlorophyll,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,Weepinbell;Victreebel
+Weepinbell,70,1.0,6.4,Flycatcher,Chlorophyll,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,Victreebel
+Victreebel,71,1.7,15.5,Flycatcher,Chlorophyll,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,
+Tentacool,72,0.9,45.5,Jellyfish,Clear Body;Liquid Ooze,WATER;POISON,ELECTRIC;PSYCHIC;GROUND,Tentacruel
+Tentacruel,73,1.6,55.0,Jellyfish,Clear Body;Liquid Ooze,WATER;POISON,ELECTRIC;PSYCHIC;GROUND,
+Geodude,74,0.4,20.0,Rock,Sturdy;Rock Head,ROCK;GROUND;ELECTRIC,ICE;FIGHTING;STEEL;WATER;GROUND;GRASS,Graveler;Golem
+Graveler,75,1.0,105.0,Rock,Sturdy;Rock Head,ROCK;GROUND;ELECTRIC,ICE;FIGHTING;STEEL;WATER;GROUND;GRASS,Golem
+Golem,76,1.4,300.0,Megaton,Sturdy;Rock Head,ROCK;GROUND;ELECTRIC,ICE;FIGHTING;STEEL;WATER;GROUND;GRASS,
+Ponyta,77,1.0,30.0,Fire Horse,Run Away;Flash Fire,FIRE;PSYCHIC,ROCK;WATER;GROUND,Rapidash
+Rapidash,78,1.7,95.0,Fire Horse,Run Away;Flash Fire,FIRE;PSYCHIC;FAIRY,ROCK;WATER;GROUND,
+Slowpoke,79,1.2,36.0,Dopey,Own Tempo;Oblivious,WATER;PSYCHIC,GHOST;ELECTRIC;BUG;DARK;GRASS,Slowbro;Slowking
+Slowbro,80,1.6,78.5,Hermit Crab,Own Tempo;Oblivious,WATER;PSYCHIC;POISON,GHOST;ELECTRIC;BUG;DARK;GRASS,Slowking
+Magnemite,81,0.3,6.0,Magnet,Magnet Pull;Sturdy,ELECTRIC;STEEL,FIGHTING;GROUND;FIRE,Magneton;Magnezone
+Magneton,82,1.0,60.0,Magnet,Magnet Pull;Sturdy,ELECTRIC;STEEL,FIGHTING;GROUND;FIRE,Magnezone
+Farfetch'd,83,0.8,15.0,Wild Duck,Keen Eye;Inner Focus,NORMAL;FLYING;FIGHTING,ELECTRIC;ICE;ROCK,Sirfetch'd
+Doduo,84,1.4,39.2,Twin Bird,Run Away;Early Bird,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Dodrio
+Dodrio,85,1.8,85.2,Triple Bird,Run Away;Early Bird,NORMAL;FLYING,ELECTRIC;ICE;ROCK,
+Seel,86,1.1,90.0,Sea Lion,Hydration;Thick Fat,WATER,ELECTRIC;GRASS,Dewgong
+Dewgong,87,1.7,120.0,Sea Lion,Hydration;Thick Fat,WATER;ICE,ELECTRIC;ROCK;FIGHTING;GRASS,
+Grimer,88,0.9,30.0,Sludge,Stench;Sticky Hold,POISON;DARK,PSYCHIC;GROUND,Muk
+Muk,89,1.2,30.0,Sludge,Stench;Sticky Hold,POISON;DARK,PSYCHIC;GROUND,
+Shellder,90,0.3,4.0,Bivalve,Skill Link;Shell Armor,WATER,ELECTRIC;GRASS,Cloyster
+Cloyster,91,1.5,132.5,Bivalve,Skill Link;Shell Armor,WATER;ICE,ELECTRIC;ROCK;FIGHTING;GRASS,
+Gastly,92,1.3,0.1,Gas,Levitate,GHOST;POISON,GHOST;PSYCHIC;GROUND;DARK,Haunter;Gengar
+Haunter,93,1.6,0.1,Gas,Levitate,GHOST;POISON,GHOST;PSYCHIC;GROUND;DARK,Gengar
+Gengar,94,1.5,40.5,Shadow,Cursed Body,GHOST;POISON,GHOST;PSYCHIC;GROUND;DARK,
+Onix,95,8.8,210.0,Rock Snake,Sturdy;Rock Head,ROCK;GROUND,ICE;FIGHTING;STEEL;WATER;GROUND;GRASS,Steelix
+Drowzee,96,1.0,32.4,Hypnosis,Insomnia;Forewarn,PSYCHIC,GHOST;BUG;DARK,Hypno
+Hypno,97,1.6,75.6,Hypnosis,Insomnia;Forewarn,PSYCHIC,GHOST;BUG;DARK,
+Krabby,98,0.4,6.5,River Crab,Hyper Cutter;Shell Armor,WATER,ELECTRIC;GRASS,Kingler
+Kingler,99,1.3,60.0,Pincer,Hyper Cutter;Shell Armor,WATER,ELECTRIC;GRASS,
+Voltorb,100,0.5,10.4,Ball,Soundproof;Static,ELECTRIC;GRASS,GROUND,Electrode
+Electrode,101,1.2,66.6,Ball,Soundproof;Static,ELECTRIC;GRASS,GROUND,
+Exeggcute,102,0.4,2.5,Egg,Chlorophyll,GRASS;PSYCHIC,GHOST;ICE;BUG;FLYING;FIRE;DARK;POISON,Exeggutor
+Exeggutor,103,2.0,120.0,Coconut,Chlorophyll,GRASS;PSYCHIC;DRAGON,GHOST;ICE;BUG;FLYING;FIRE;DARK;POISON,
+Cubone,104,0.4,6.5,Lonely,Rock Head;Lightning Rod,GROUND,ICE;WATER;GRASS,Marowak
+Marowak,105,1.0,45.0,Bone Keeper,Rock Head;Lightning Rod,GROUND;FIRE;GHOST,ICE;WATER;GRASS,
+Hitmonlee,106,1.5,49.8,Kicking,Limber;Reckless,FIGHTING,PSYCHIC;FAIRY;FLYING,Hitmonchan;Hitmontop
+Hitmonchan,107,1.4,50.2,Punching,Keen Eye;Iron Fist,FIGHTING,PSYCHIC;FAIRY;FLYING,Hitmontop
+Lickitung,108,1.2,65.5,Licking,Own Tempo;Oblivious,NORMAL,FIGHTING,Lickilicky
+Koffing,109,0.6,1.0,Poison Gas,Levitate;Neutralizing Gas,POISON,PSYCHIC;GROUND,Weezing
+Weezing,110,1.2,9.5,Poison Gas,Levitate;Neutralizing Gas,POISON;FAIRY,PSYCHIC;GROUND,
+Rhyhorn,111,1.0,115.0,Spikes,Rock Head;Lightning Rod,GROUND;ROCK,ICE;FIGHTING;STEEL;WATER;GROUND;GRASS,Rhydon;Rhyperior
+Rhydon,112,1.9,120.0,Drill,Rock Head;Lightning Rod,GROUND;ROCK,ICE;FIGHTING;STEEL;WATER;GROUND;GRASS,Rhyperior
+Chansey,113,1.1,34.6,Egg,Serene Grace;Natural Cure,NORMAL,FIGHTING,Blissey
+Tangela,114,1.0,35.0,Vine,Chlorophyll;Leaf Guard,GRASS,ICE;BUG;FLYING;FIRE;POISON,Tangrowth
+Kangaskhan,115,2.2,80.0,Parent,Scrappy;Early Bird,NORMAL,FIGHTING,
+Horsea,116,0.4,8.0,Dragon,Swift Swim;Sniper,WATER,ELECTRIC;GRASS,Seadra;Kingdra
+Seadra,117,1.2,25.0,Dragon,Poison Point;Sniper,WATER,ELECTRIC;GRASS,Kingdra
+Goldeen,118,0.6,15.0,Goldfish,Swift Swim;Water Veil,WATER,ELECTRIC;GRASS,Seaking
+Seaking,119,1.3,39.0,Goldfish,Swift Swim;Water Veil,WATER,ELECTRIC;GRASS,
+Staryu,120,0.8,34.5,Star Shape,Natural Cure;Illuminate,WATER,ELECTRIC;GRASS,Starmie
+Starmie,121,1.1,80.0,Mysterious,Natural Cure;Illuminate,WATER;PSYCHIC,GHOST;ELECTRIC;BUG;DARK;GRASS,
+Mr. Mime,122,1.3,54.5,Barrier,Soundproof;Filter,PSYCHIC;FAIRY;ICE,GHOST;STEEL;POISON,
+Scyther,123,1.5,56.0,Mantis,Swarm;Technician,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,Scizor;Kleavor
+Jynx,124,1.4,40.6,Human Shape,Oblivious;Forewarn,ICE;PSYCHIC,GHOST;ROCK;BUG;STEEL;FIRE;DARK,
+Electabuzz,125,1.1,30.0,Electric,Static,ELECTRIC,GROUND,Electivire
+Magmar,126,1.3,44.5,Spitfire,Flame Body,FIRE,ROCK;WATER;GROUND,Magmortar
+Pinsir,127,1.5,55.0,Stag Beetle,Mold Breaker;Hyper Cutter,BUG;FLYING,ROCK;FLYING;FIRE,
+Tauros,128,1.4,88.4,Wild Bull,Intimidate;Anger Point,NORMAL,FIGHTING,
+Magikarp,129,0.9,10.0,Fish,Swift Swim,WATER,ELECTRIC;GRASS,Gyarados
+Gyarados,130,6.5,235.0,Atrocious,Intimidate,WATER;FLYING;DARK,ELECTRIC;ROCK,
+Lapras,131,2.5,220.0,Transport,Water Absorb;Shell Armor,WATER;ICE,ELECTRIC;ROCK;FIGHTING;GRASS,
+Ditto,132,0.3,4.0,Transform,Limber,NORMAL,FIGHTING,
+Eevee,133,0.3,6.5,Evolution,Run Away;Adaptability,NORMAL,FIGHTING,Vaporeon;Jolteon;Flareon;Espeon;Umbreon;Leafeon;Glaceon;Sylveon
+Vaporeon,134,1.0,29.0,Bubble Jet,Water Absorb,WATER,ELECTRIC;GRASS,Jolteon;Flareon;Espeon;Umbreon;Leafeon;Glaceon;Sylveon
+Jolteon,135,0.8,24.5,Lightning,Volt Absorb,ELECTRIC,GROUND,Flareon;Espeon;Umbreon;Leafeon;Glaceon;Sylveon
+Flareon,136,0.9,25.0,Flame,Flash Fire,FIRE,ROCK;WATER;GROUND,Espeon;Umbreon;Leafeon;Glaceon;Sylveon
+Porygon,137,0.8,36.5,Virtual,Trace;Download,NORMAL,FIGHTING,Porygon2;Porygon-Z
+Omanyte,138,0.4,7.5,Spiral,Swift Swim;Shell Armor,ROCK;WATER,ELECTRIC;FIGHTING;GROUND;GRASS,Omastar
+Omastar,139,1.0,35.0,Spiral,Swift Swim;Shell Armor,ROCK;WATER,ELECTRIC;FIGHTING;GROUND;GRASS,
+Kabuto,140,0.5,11.5,Shellfish,Battle Armor;Swift Swim,ROCK;WATER,ELECTRIC;FIGHTING;GROUND;GRASS,Kabutops
+Kabutops,141,1.3,40.5,Shellfish,Battle Armor;Swift Swim,ROCK;WATER,ELECTRIC;FIGHTING;GROUND;GRASS,
+Aerodactyl,142,1.8,59.0,Fossil,Rock Head;Pressure,ROCK;FLYING,ELECTRIC;ICE;ROCK;STEEL;WATER,
+Snorlax,143,2.1,460.0,Sleeping,Thick Fat;Immunity,NORMAL,FIGHTING,
+Articuno,144,1.7,55.4,Freeze,Pressure,ICE;FLYING;PSYCHIC,ELECTRIC;ROCK;STEEL;FIRE,
+Zapdos,145,1.6,52.6,Electric,Pressure,ELECTRIC;FLYING;FIGHTING,ICE;ROCK,
+Moltres,146,2.0,60.0,Flame,Pressure,FIRE;FLYING;DARK,ELECTRIC;ROCK;WATER,
+Dratini,147,1.8,3.3,Dragon,Shed Skin,DRAGON,ICE;DRAGON;FAIRY,Dragonair;Dragonite
+Dragonair,148,4.0,16.5,Dragon,Shed Skin,DRAGON,ICE;DRAGON;FAIRY,Dragonite
+Dragonite,149,2.2,210.0,Dragon,Inner Focus,DRAGON;FLYING,ICE;ROCK;DRAGON;FAIRY,
+Mewtwo,150,2.0,122.0,Genetic,Pressure,PSYCHIC;FIGHTING,GHOST;BUG;DARK,
+Mew,151,0.4,4.0,New Species,Synchronize,PSYCHIC,GHOST;BUG;DARK,
+Chikorita,152,0.9,6.4,Leaf,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Bayleef;Meganium
+Bayleef,153,1.2,15.8,Leaf,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Meganium
+Meganium,154,1.8,100.5,Herb,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Cyndaquil,155,0.5,7.9,Fire Mouse,Blaze,FIRE,ROCK;WATER;GROUND,Quilava;Typhlosion
+Quilava,156,0.9,19.0,Volcano,Blaze,FIRE,ROCK;WATER;GROUND,Typhlosion
+Typhlosion,157,1.7,79.5,Volcano,Blaze,FIRE;GHOST,ROCK;WATER;GROUND,
+Totodile,158,0.6,9.5,Big Jaw,Torrent,WATER,ELECTRIC;GRASS,Croconaw;Feraligatr
+Croconaw,159,1.1,25.0,Big Jaw,Torrent,WATER,ELECTRIC;GRASS,Feraligatr
+Feraligatr,160,2.3,88.8,Big Jaw,Torrent,WATER,ELECTRIC;GRASS,
+Sentret,161,0.8,6.0,Scout,Keen Eye;Run Away,NORMAL,FIGHTING,Furret
+Furret,162,1.8,32.5,Long Body,Keen Eye;Run Away,NORMAL,FIGHTING,
+Hoothoot,163,0.7,21.2,Owl,Keen Eye;Insomnia,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Noctowl
+Noctowl,164,1.6,40.8,Owl,Keen Eye;Insomnia,NORMAL;FLYING,ELECTRIC;ICE;ROCK,
+Ledyba,165,1.0,10.8,Five Star,Swarm;Early Bird,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,Ledian
+Ledian,166,1.4,35.6,Five Star,Swarm;Early Bird,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,
+Spinarak,167,0.5,8.5,String Spit,Swarm;Insomnia,BUG;POISON,ROCK;PSYCHIC;FLYING;FIRE,Ariados
+Ariados,168,1.1,33.5,Long Leg,Swarm;Insomnia,BUG;POISON,ROCK;PSYCHIC;FLYING;FIRE,
+Crobat,169,1.8,75.0,Bat,Inner Focus,POISON;FLYING,ELECTRIC;ICE;ROCK;PSYCHIC,
+Chinchou,170,0.5,12.0,Angler,Volt Absorb;Illuminate,WATER;ELECTRIC,GROUND;GRASS,Lanturn
+Lanturn,171,1.2,22.5,Light,Volt Absorb;Illuminate,WATER;ELECTRIC,GROUND;GRASS,
+Pichu,172,0.3,2.0,Tiny Mouse,Static,ELECTRIC,GROUND,Pikachu;Raichu
+Cleffa,173,0.3,3.0,Star Shape,Cute Charm;Magic Guard,FAIRY,STEEL;POISON,Clefairy;Clefable
+Igglybuff,174,0.3,1.0,Balloon,Competitive;Cute Charm,NORMAL;FAIRY,STEEL;POISON,Jigglypuff;Wigglytuff
+Togepi,175,0.3,1.5,Spike Ball,Serene Grace;Hustle,FAIRY,STEEL;POISON,Togetic;Togekiss
+Togetic,176,0.6,3.2,Happiness,Serene Grace;Hustle,FAIRY;FLYING,ELECTRIC;ICE;ROCK;STEEL;POISON,Togekiss
+Natu,177,0.2,2.0,Tiny Bird,Synchronize;Early Bird,PSYCHIC;FLYING,GHOST;ELECTRIC;ICE;ROCK;DARK,Xatu
+Xatu,178,1.5,15.0,Mystic,Synchronize;Early Bird,PSYCHIC;FLYING,GHOST;ELECTRIC;ICE;ROCK;DARK,
+Mareep,179,0.6,7.8,Wool,Static,ELECTRIC,GROUND,Flaaffy;Ampharos
+Flaaffy,180,0.8,13.3,Wool,Static,ELECTRIC,GROUND,Ampharos
+Ampharos,181,1.4,61.5,Light,Static,ELECTRIC;DRAGON,GROUND,
+Bellossom,182,0.4,5.8,Flower,Chlorophyll,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Marill,183,0.4,8.5,Aqua Mouse,Huge Power;Thick Fat,WATER;FAIRY,ELECTRIC;GRASS;POISON,Azumarill
+Azumarill,184,0.8,28.5,Aqua Rabbit,Huge Power;Thick Fat,WATER;FAIRY,ELECTRIC;GRASS;POISON,
+Sudowoodo,185,1.2,38.0,Imitation,Sturdy;Rock Head,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,
+Politoed,186,1.1,33.9,Frog,Damp;Water Absorb,WATER,ELECTRIC;GRASS,
+Hoppip,187,0.4,0.5,Cottonweed,Chlorophyll;Leaf Guard,GRASS;FLYING,ICE;ROCK;FLYING;FIRE;POISON,Skiploom;Jumpluff
+Skiploom,188,0.6,1.0,Cottonweed,Chlorophyll;Leaf Guard,GRASS;FLYING,ICE;ROCK;FLYING;FIRE;POISON,Jumpluff
+Jumpluff,189,0.8,3.0,Cottonweed,Chlorophyll;Leaf Guard,GRASS;FLYING,ICE;ROCK;FLYING;FIRE;POISON,
+Aipom,190,0.8,11.5,Long Tail,Run Away;Pickup,NORMAL,FIGHTING,Ambipom
+Sunkern,191,0.3,1.8,Seed,Chlorophyll;Solar Power,GRASS,ICE;BUG;FLYING;FIRE;POISON,Sunflora
+Sunflora,192,0.8,8.5,Sun,Chlorophyll;Solar Power,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Yanma,193,1.2,38.0,Clear Wing,Speed Boost;Compound Eyes,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,Yanmega
+Wooper,194,0.4,8.5,Water Fish,Damp;Water Absorb,WATER;GROUND,GRASS,Quagsire
+Quagsire,195,1.4,75.0,Water Fish,Damp;Water Absorb,WATER;GROUND,GRASS,
+Espeon,196,0.9,26.5,Sun,Synchronize,PSYCHIC,GHOST;BUG;DARK,Umbreon;Leafeon;Glaceon;Sylveon
+Umbreon,197,1.0,27.0,Moonlight,Synchronize,DARK,FIGHTING;FAIRY;BUG,Leafeon;Glaceon;Sylveon
+Murkrow,198,0.5,2.1,Darkness,Insomnia;Super Luck,DARK;FLYING,ELECTRIC;ICE;ROCK;FAIRY,Honchkrow
+Slowking,199,2.0,79.5,Royal,Own Tempo;Oblivious,WATER;PSYCHIC;POISON,GHOST;ELECTRIC;BUG;DARK;GRASS,
+Misdreavus,200,0.7,1.0,Screech,Levitate,GHOST,GHOST;DARK,Mismagius
+Unown,201,0.5,5.0,Symbol,Levitate,PSYCHIC,GHOST;BUG;DARK,
+Wobbuffet,202,1.3,28.5,Patient,Shadow Tag,PSYCHIC,GHOST;BUG;DARK,
+Girafarig,203,1.5,41.5,Long Neck,Early Bird;Inner Focus,NORMAL;PSYCHIC,BUG;DARK,
+Pineco,204,0.6,7.2,Bagworm,Sturdy,BUG,ROCK;FLYING;FIRE,Forretress
+Forretress,205,1.2,125.8,Bagworm,Sturdy,BUG;STEEL,FIRE,
+Dunsparce,206,1.5,14.0,Land Snake,Serene Grace;Run Away,NORMAL,FIGHTING,
+Gligar,207,1.1,64.8,Fly Scorpion,Sand Veil;Hyper Cutter,GROUND;FLYING,ICE;WATER,Gliscor
+Steelix,208,9.2,400.0,Iron Snake,Sturdy;Rock Head,STEEL;GROUND,FIGHTING;WATER;GROUND;FIRE,
+Snubbull,209,0.6,7.8,Fairy,Intimidate;Run Away,FAIRY,STEEL;POISON,Granbull
+Granbull,210,1.4,48.7,Fairy,Intimidate;Quick Feet,FAIRY,STEEL;POISON,
+Qwilfish,211,0.5,3.9,Balloon,Swift Swim;Poison Point,WATER;POISON;DARK,ELECTRIC;PSYCHIC;GROUND,Overqwil
+Scizor,212,1.8,118.0,Pincer,Swarm;Technician,BUG;STEEL,FIRE,Kleavor
+Shuckle,213,0.6,20.5,Mold,Sturdy;Gluttony,BUG;ROCK,ROCK;STEEL;WATER,
+Heracross,214,1.5,54.0,Single Horn,Swarm;Guts,BUG;FIGHTING,PSYCHIC;FAIRY;FLYING;FIRE,
+Sneasel,215,0.9,28.0,Sharp Claw,Keen Eye;Inner Focus,DARK;ICE;FIGHTING;POISON,ROCK;FIGHTING;FAIRY;BUG;STEEL;FIRE,Weavile
+Teddiursa,216,0.6,8.8,Little Bear,Quick Feet;Pickup,NORMAL,FIGHTING,Ursaring;Ursaluna
+Ursaring,217,1.8,125.8,Hibernator,Quick Feet;Guts,NORMAL,FIGHTING,Ursaluna
+Slugma,218,0.7,35.0,Lava,Magma Armor;Flame Body,FIRE,ROCK;WATER;GROUND,Magcargo
+Magcargo,219,0.8,55.0,Lava,Magma Armor;Flame Body,FIRE;ROCK,ROCK;FIGHTING;WATER;GROUND,
+Swinub,220,0.4,6.5,Pig,Oblivious;Snow Cloak,ICE;GROUND,FIGHTING;STEEL;WATER;FIRE;GRASS,Piloswine;Mamoswine
+Piloswine,221,1.1,55.8,Swine,Oblivious;Snow Cloak,ICE;GROUND,FIGHTING;STEEL;WATER;FIRE;GRASS,Mamoswine
+Corsola,222,0.6,5.0,Coral,Hustle;Natural Cure,WATER;ROCK;GHOST,ELECTRIC;FIGHTING;GROUND;GRASS,Cursola
+Remoraid,223,0.6,12.0,Jet,Hustle;Sniper,WATER,ELECTRIC;GRASS,Octillery
+Octillery,224,0.9,28.5,Jet,Sniper;Suction Cups,WATER,ELECTRIC;GRASS,
+Delibird,225,0.9,16.0,Delivery,Vital Spirit;Hustle,ICE;FLYING,ELECTRIC;ROCK;STEEL;FIRE,
+Mantine,226,2.1,220.0,Kite,Water Absorb;Swift Swim,WATER;FLYING,ELECTRIC;ROCK,
+Skarmory,227,1.7,50.5,Armor Bird,Keen Eye;Sturdy,STEEL;FLYING,ELECTRIC;FIRE,
+Houndour,228,0.6,10.8,Dark,Flash Fire;Early Bird,DARK;FIRE,ROCK;FIGHTING;WATER;GROUND,Houndoom
+Houndoom,229,1.4,35.0,Dark,Flash Fire;Early Bird,DARK;FIRE,ROCK;FIGHTING;WATER;GROUND,
+Kingdra,230,1.8,152.0,Dragon,Swift Swim;Sniper,WATER;DRAGON,DRAGON;FAIRY,
+Phanpy,231,0.5,33.5,Long Nose,Pickup,GROUND,ICE;WATER;GRASS,Donphan
+Donphan,232,1.1,120.0,Armor,Sturdy,GROUND,ICE;WATER;GRASS,
+Porygon2,233,0.6,32.5,Virtual,Trace;Download,NORMAL,FIGHTING,Porygon-Z
+Stantler,234,1.4,71.2,Big Horn,Intimidate;Frisk,NORMAL,FIGHTING,Wyrdeer
+Smeargle,235,1.2,58.0,Painter,Own Tempo;Technician,NORMAL,FIGHTING,
+Tyrogue,236,0.7,21.0,Scuffle,Steadfast;Guts,FIGHTING,PSYCHIC;FAIRY;FLYING,Hitmonlee;Hitmonchan;Hitmontop
+Hitmontop,237,1.4,48.0,Handstand,Intimidate;Technician,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Smoochum,238,0.4,6.0,Kiss,Oblivious;Forewarn,ICE;PSYCHIC,GHOST;ROCK;BUG;STEEL;FIRE;DARK,Jynx
+Elekid,239,0.6,23.5,Electric,Static,ELECTRIC,GROUND,Electabuzz;Electivire
+Magby,240,0.7,21.4,Live Coal,Flame Body,FIRE,ROCK;WATER;GROUND,Magmar;Magmortar
+Miltank,241,1.2,75.5,Milk Cow,Scrappy;Thick Fat,NORMAL,FIGHTING,
+Blissey,242,1.5,46.8,Happiness,Serene Grace;Natural Cure,NORMAL,FIGHTING,
+Raikou,243,1.9,178.0,Thunder,Pressure,ELECTRIC,GROUND,
+Entei,244,2.1,198.0,Volcano,Pressure,FIRE,ROCK;WATER;GROUND,
+Suicune,245,2.0,187.0,Aurora,Pressure,WATER,ELECTRIC;GRASS,
+Larvitar,246,0.6,72.0,Rock Skin,Guts,ROCK;GROUND,ICE;FIGHTING;STEEL;WATER;GROUND;GRASS,Pupitar;Tyranitar
+Pupitar,247,1.2,152.0,Hard Shell,Shed Skin,ROCK;GROUND,ICE;FIGHTING;STEEL;WATER;GROUND;GRASS,Tyranitar
+Tyranitar,248,2.0,202.0,Armor,Sand Stream,ROCK;DARK,FIGHTING;FAIRY;BUG;STEEL;WATER;GROUND;GRASS,
+Lugia,249,5.2,216.0,Diving,Pressure,PSYCHIC;FLYING,GHOST;ELECTRIC;ICE;ROCK;DARK,
+Ho-Oh,250,3.8,199.0,Rainbow,Pressure,FIRE;FLYING,ELECTRIC;ROCK;WATER,
+Celebi,251,0.6,5.0,Time Travel,Natural Cure,PSYCHIC;GRASS,GHOST;ICE;BUG;FLYING;FIRE;DARK;POISON,
+Treecko,252,0.5,5.0,Wood Gecko,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Grovyle;Sceptile
+Grovyle,253,0.9,21.6,Wood Gecko,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Sceptile
+Sceptile,254,1.7,52.2,Forest,Overgrow,GRASS;DRAGON,ICE;BUG;FLYING;FIRE;POISON,
+Torchic,255,0.4,2.5,Chick,Blaze,FIRE,ROCK;WATER;GROUND,Combusken;Blaziken
+Combusken,256,0.9,19.5,Young Fowl,Blaze,FIRE;FIGHTING,PSYCHIC;WATER;FLYING;GROUND,Blaziken
+Blaziken,257,1.9,52.0,Blaze,Blaze,FIRE;FIGHTING,PSYCHIC;WATER;FLYING;GROUND,
+Mudkip,258,0.4,7.6,Mud Fish,Torrent,WATER,ELECTRIC;GRASS,Marshtomp;Swampert
+Marshtomp,259,0.7,28.0,Mud Fish,Torrent,WATER;GROUND,GRASS,Swampert
+Swampert,260,1.5,81.9,Mud Fish,Torrent,WATER;GROUND,GRASS,
+Poochyena,261,0.5,13.6,Bite,Run Away;Quick Feet,DARK,FIGHTING;FAIRY;BUG,Mightyena
+Mightyena,262,1.0,37.0,Bite,Intimidate;Quick Feet,DARK,FIGHTING;FAIRY;BUG,
+Zigzagoon,263,0.4,17.5,Tiny Raccoon,Pickup;Gluttony,NORMAL;DARK,FIGHTING,Linoone
+Linoone,264,0.5,32.5,Rushing,Pickup;Gluttony,NORMAL;DARK,FIGHTING,
+Wurmple,265,0.3,3.6,Worm,Shield Dust,BUG,ROCK;FLYING;FIRE,Silcoon;Cascoon;Beautifly;Dustox
+Silcoon,266,0.6,10.0,Cocoon,Shed Skin,BUG,ROCK;FLYING;FIRE,Cascoon;Beautifly;Dustox
+Beautifly,267,1.0,28.4,Butterfly,Swarm,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,Dustox
+Cascoon,268,0.7,11.5,Cocoon,Shed Skin,BUG,ROCK;FLYING;FIRE,Beautifly;Dustox
+Dustox,269,1.2,31.6,Poison Moth,Shield Dust,BUG;POISON,ROCK;PSYCHIC;FLYING;FIRE,
+Lotad,270,0.5,2.6,Water Weed,Rain Dish;Swift Swim,WATER;GRASS,BUG;FLYING;POISON,Lombre;Ludicolo
+Lombre,271,1.2,32.5,Jolly,Rain Dish;Swift Swim,WATER;GRASS,BUG;FLYING;POISON,Ludicolo
+Ludicolo,272,1.5,55.0,Carefree,Rain Dish;Swift Swim,WATER;GRASS,BUG;FLYING;POISON,
+Seedot,273,0.5,4.0,Acorn,Chlorophyll;Early Bird,GRASS,ICE;BUG;FLYING;FIRE;POISON,Nuzleaf;Shiftry
+Nuzleaf,274,1.0,28.0,Wily,Chlorophyll;Early Bird,GRASS;DARK,ICE;FIGHTING;FAIRY;BUG;FLYING;FIRE;POISON,Shiftry
+Shiftry,275,1.3,59.6,Wicked,Chlorophyll;Early Bird,GRASS;DARK,ICE;FIGHTING;FAIRY;BUG;FLYING;FIRE;POISON,
+Taillow,276,0.3,2.3,Tiny Swallow,Guts,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Swellow
+Swellow,277,0.7,19.8,Swallow,Guts,NORMAL;FLYING,ELECTRIC;ICE;ROCK,
+Wingull,278,0.6,9.5,Seagull,Keen Eye;Hydration,WATER;FLYING,ELECTRIC;ROCK,Pelipper
+Pelipper,279,1.2,28.0,Water Bird,Keen Eye;Drizzle,WATER;FLYING,ELECTRIC;ROCK,
+Ralts,280,0.4,6.6,Feeling,Trace;Synchronize,PSYCHIC;FAIRY,GHOST;STEEL;POISON,Kirlia;Gardevoir;Gallade
+Kirlia,281,0.8,20.2,Emotion,Trace;Synchronize,PSYCHIC;FAIRY,GHOST;STEEL;POISON,Gardevoir;Gallade
+Gardevoir,282,1.6,48.4,Embrace,Trace;Synchronize,PSYCHIC;FAIRY,GHOST;STEEL;POISON,Gallade
+Surskit,283,0.5,1.7,Pond Skater,Swift Swim,BUG;WATER,ELECTRIC;ROCK;FLYING,Masquerain
+Masquerain,284,0.8,3.6,Eyeball,Intimidate,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,
+Shroomish,285,0.4,4.5,Mushroom,Poison Heal;Effect Spore,GRASS,ICE;BUG;FLYING;FIRE;POISON,Breloom
+Breloom,286,1.2,39.2,Mushroom,Poison Heal;Effect Spore,GRASS;FIGHTING,ICE;PSYCHIC;FAIRY;FLYING;FIRE;POISON,
+Slakoth,287,0.8,24.0,Slacker,Truant,NORMAL,FIGHTING,Vigoroth;Slaking
+Vigoroth,288,1.4,46.5,Wild Monkey,Vital Spirit,NORMAL,FIGHTING,Slaking
+Slaking,289,2.0,130.5,Lazy,Truant,NORMAL,FIGHTING,
+Nincada,290,0.5,5.5,Trainee,Compound Eyes,BUG;GROUND,ICE;WATER;FLYING;FIRE,Ninjask;Shedinja
+Ninjask,291,0.8,12.0,Ninja,Speed Boost,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,Shedinja
+Shedinja,292,0.8,1.2,Shed,Wonder Guard,BUG;GHOST,GHOST;ROCK;FLYING;FIRE;DARK,
+Whismur,293,0.6,16.3,Whisper,Soundproof,NORMAL,FIGHTING,Loudred;Exploud
+Loudred,294,1.0,40.5,Big Voice,Soundproof,NORMAL,FIGHTING,Exploud
+Exploud,295,1.5,84.0,Loud Noise,Soundproof,NORMAL,FIGHTING,
+Makuhita,296,1.0,86.4,Guts,Thick Fat;Guts,FIGHTING,PSYCHIC;FAIRY;FLYING,Hariyama
+Hariyama,297,2.3,253.8,Arm Thrust,Thick Fat;Guts,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Azurill,298,0.2,2.0,Polka Dot,Huge Power;Thick Fat,NORMAL;FAIRY,STEEL;POISON,Marill;Azumarill
+Nosepass,299,1.0,97.0,Compass,Magnet Pull;Sturdy,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,Probopass
+Skitty,300,0.6,11.0,Kitten,Normalize;Cute Charm,NORMAL,FIGHTING,Delcatty
+Delcatty,301,1.1,32.6,Prim,Normalize;Cute Charm,NORMAL,FIGHTING,
+Sableye,302,0.5,11.0,Darkness,Keen Eye;Stall,DARK;GHOST,FAIRY,
+Mawile,303,0.6,11.5,Deceiver,Intimidate;Hyper Cutter,STEEL;FAIRY,GROUND;FIRE,
+Aron,304,0.4,60.0,Iron Armor,Sturdy;Rock Head,STEEL;ROCK,FIGHTING;WATER;GROUND,Lairon;Aggron
+Lairon,305,0.9,120.0,Iron Armor,Sturdy;Rock Head,STEEL;ROCK,FIGHTING;WATER;GROUND,Aggron
+Aggron,306,2.1,360.0,Iron Armor,Sturdy;Rock Head,STEEL;ROCK,FIGHTING;WATER;GROUND,
+Meditite,307,0.6,11.2,Meditate,Pure Power,FIGHTING;PSYCHIC,GHOST;FAIRY;FLYING,Medicham
+Medicham,308,1.3,31.5,Meditate,Pure Power,FIGHTING;PSYCHIC,GHOST;FAIRY;FLYING,
+Electrike,309,0.6,15.2,Lightning,Static;Lightning Rod,ELECTRIC,GROUND,Manectric
+Manectric,310,1.5,40.2,Discharge,Static;Lightning Rod,ELECTRIC,GROUND,
+Plusle,311,0.4,4.2,Cheering,Plus,ELECTRIC,GROUND,
+Minun,312,0.4,4.2,Cheering,Minus,ELECTRIC,GROUND,
+Volbeat,313,0.7,17.7,Firefly,Swarm;Illuminate,BUG,ROCK;FLYING;FIRE,
+Illumise,314,0.6,17.7,Firefly,Oblivious;Tinted Lens,BUG,ROCK;FLYING;FIRE,
+Roselia,315,0.3,2.0,Thorn,Poison Point;Natural Cure,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,Roserade
+Gulpin,316,0.4,10.3,Stomach,Liquid Ooze;Sticky Hold,POISON,PSYCHIC;GROUND,Swalot
+Swalot,317,1.7,80.0,Poison Bag,Liquid Ooze;Sticky Hold,POISON,PSYCHIC;GROUND,
+Carvanha,318,0.8,20.8,Savage,Rough Skin,WATER;DARK,ELECTRIC;FIGHTING;FAIRY;BUG;GRASS,Sharpedo
+Sharpedo,319,1.8,88.8,Brutal,Rough Skin,WATER;DARK,ELECTRIC;FIGHTING;FAIRY;BUG;GRASS,
+Wailmer,320,2.0,130.0,Ball Whale,Oblivious;Water Veil,WATER,ELECTRIC;GRASS,Wailord
+Wailord,321,14.5,398.0,Float Whale,Oblivious;Water Veil,WATER,ELECTRIC;GRASS,
+Numel,322,0.7,24.0,Numb,Oblivious;Simple,FIRE;GROUND,WATER;GROUND,Camerupt
+Camerupt,323,1.9,220.0,Eruption,Magma Armor;Solid Rock,FIRE;GROUND,WATER;GROUND,
+Torkoal,324,0.5,80.4,Coal,White Smoke;Drought,FIRE,ROCK;WATER;GROUND,
+Spoink,325,0.7,30.6,Bounce,Own Tempo;Thick Fat,PSYCHIC,GHOST;BUG;DARK,Grumpig
+Grumpig,326,0.9,71.5,Manipulate,Own Tempo;Thick Fat,PSYCHIC,GHOST;BUG;DARK,
+Spinda,327,1.1,5.0,Spot Panda,Own Tempo;Tangled Feet,NORMAL,FIGHTING,
+Trapinch,328,0.7,15.0,Ant Pit,Arena Trap;Hyper Cutter,GROUND,ICE;WATER;GRASS,Vibrava;Flygon
+Vibrava,329,1.1,15.3,Vibration,Levitate,GROUND;DRAGON,ICE;DRAGON;FAIRY,Flygon
+Flygon,330,2.0,82.0,Mystic,Levitate,GROUND;DRAGON,ICE;DRAGON;FAIRY,
+Cacnea,331,0.4,51.3,Cactus,Sand Veil,GRASS,ICE;BUG;FLYING;FIRE;POISON,Cacturne
+Cacturne,332,1.3,77.4,Scarecrow,Sand Veil,GRASS;DARK,ICE;FIGHTING;FAIRY;BUG;FLYING;FIRE;POISON,
+Swablu,333,0.4,1.2,Cotton Bird,Natural Cure,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Altaria
+Altaria,334,1.1,20.6,Humming,Natural Cure,DRAGON;FLYING;FAIRY,ICE;ROCK;DRAGON;FAIRY,
+Zangoose,335,1.3,40.3,Cat Ferret,Immunity,NORMAL,FIGHTING,
+Seviper,336,2.7,52.5,Fang Snake,Shed Skin,POISON,PSYCHIC;GROUND,
+Lunatone,337,1.0,168.0,Meteorite,Levitate,ROCK;PSYCHIC,GHOST;BUG;STEEL;WATER;GROUND;DARK;GRASS,
+Solrock,338,1.2,154.0,Meteorite,Levitate,ROCK;PSYCHIC,GHOST;BUG;STEEL;WATER;GROUND;DARK;GRASS,
+Barboach,339,0.4,1.9,Whiskers,Oblivious;Anticipation,WATER;GROUND,GRASS,Whiscash
+Whiscash,340,0.9,23.6,Whiskers,Oblivious;Anticipation,WATER;GROUND,GRASS,
+Corphish,341,0.6,11.5,Ruffian,Hyper Cutter;Shell Armor,WATER,ELECTRIC;GRASS,Crawdaunt
+Crawdaunt,342,1.1,32.8,Rogue,Hyper Cutter;Shell Armor,WATER;DARK,ELECTRIC;FIGHTING;FAIRY;BUG;GRASS,
+Baltoy,343,0.5,21.5,Clay Doll,Levitate,GROUND;PSYCHIC,GHOST;ICE;BUG;WATER;DARK;GRASS,Claydol
+Claydol,344,1.5,108.0,Clay Doll,Levitate,GROUND;PSYCHIC,GHOST;ICE;BUG;WATER;DARK;GRASS,
+Lileep,345,1.0,23.8,Sea Lily,Suction Cups,ROCK;GRASS,ICE;FIGHTING;BUG;STEEL,Cradily
+Cradily,346,1.5,60.4,Barnacle,Suction Cups,ROCK;GRASS,ICE;FIGHTING;BUG;STEEL,
+Anorith,347,0.7,12.5,Old Shrimp,Battle Armor,ROCK;BUG,ROCK;STEEL;WATER,Armaldo
+Armaldo,348,1.5,68.2,Plate,Battle Armor,ROCK;BUG,ROCK;STEEL;WATER,
+Feebas,349,0.6,7.4,Fish,Oblivious;Swift Swim,WATER,ELECTRIC;GRASS,Milotic
+Milotic,350,6.2,162.0,Tender,Competitive;Marvel Scale,WATER,ELECTRIC;GRASS,
+Castform,351,0.3,0.8,Weather,Forecast,NORMAL,FIGHTING,
+Kecleon,352,1.0,22.0,Color Swap,Color Change,NORMAL,FIGHTING,
+Shuppet,353,0.6,2.3,Puppet,Insomnia;Frisk,GHOST,GHOST;DARK,Banette
+Banette,354,1.1,12.5,Marionette,Insomnia;Frisk,GHOST,GHOST;DARK,
+Duskull,355,0.8,15.0,Requiem,Levitate,GHOST,GHOST;DARK,Dusclops;Dusknoir
+Dusclops,356,1.6,30.6,Beckon,Pressure,GHOST,GHOST;DARK,Dusknoir
+Tropius,357,2.0,100.0,Fruit,Chlorophyll;Solar Power,GRASS;FLYING,ICE;ROCK;FLYING;FIRE;POISON,
+Chimecho,358,0.6,1.0,Wind Chime,Levitate,PSYCHIC,GHOST;BUG;DARK,
+Absol,359,1.2,47.0,Disaster,Super Luck;Pressure,DARK,FIGHTING;FAIRY;BUG,
+Wynaut,360,0.6,14.0,Bright,Shadow Tag,PSYCHIC,GHOST;BUG;DARK,Wobbuffet
+Snorunt,361,0.7,16.8,Snow Hat,Inner Focus;Ice Body,ICE,ROCK;FIGHTING;STEEL;FIRE,Glalie;Froslass
+Glalie,362,1.5,256.5,Face,Inner Focus;Ice Body,ICE,ROCK;FIGHTING;STEEL;FIRE,Froslass
+Spheal,363,0.8,39.5,Clap,Thick Fat;Ice Body,ICE;WATER,ELECTRIC;ROCK;FIGHTING;GRASS,Sealeo;Walrein
+Sealeo,364,1.1,87.6,Ball Roll,Thick Fat;Ice Body,ICE;WATER,ELECTRIC;ROCK;FIGHTING;GRASS,Walrein
+Walrein,365,1.4,150.6,Ice Break,Thick Fat;Ice Body,ICE;WATER,ELECTRIC;ROCK;FIGHTING;GRASS,
+Clamperl,366,0.4,52.5,Bivalve,Shell Armor,WATER,ELECTRIC;GRASS,Huntail;Gorebyss
+Huntail,367,1.7,27.0,Deep Sea,Swift Swim,WATER,ELECTRIC;GRASS,Gorebyss
+Gorebyss,368,1.8,22.6,South Sea,Swift Swim,WATER,ELECTRIC;GRASS,
+Relicanth,369,1.0,23.4,Longevity,Swift Swim;Rock Head,WATER;ROCK,ELECTRIC;FIGHTING;GROUND;GRASS,
+Luvdisc,370,0.6,8.7,Rendezvous,Swift Swim,WATER,ELECTRIC;GRASS,
+Bagon,371,0.6,42.1,Rock Head,Rock Head,DRAGON,ICE;DRAGON;FAIRY,Shelgon;Salamence
+Shelgon,372,1.1,110.5,Endurance,Rock Head,DRAGON,ICE;DRAGON;FAIRY,Salamence
+Salamence,373,1.5,102.6,Dragon,Intimidate,DRAGON;FLYING,ICE;ROCK;DRAGON;FAIRY,
+Beldum,374,0.6,95.2,Iron Ball,Clear Body,STEEL;PSYCHIC,GHOST;GROUND;FIRE;DARK,Metang;Metagross
+Metang,375,1.2,202.5,Iron Claw,Clear Body,STEEL;PSYCHIC,GHOST;GROUND;FIRE;DARK,Metagross
+Metagross,376,1.6,550.0,Iron Leg,Clear Body,STEEL;PSYCHIC,GHOST;GROUND;FIRE;DARK,
+Regirock,377,1.7,230.0,Rock Peak,Clear Body,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,
+Regice,378,1.8,175.0,Iceberg,Clear Body,ICE,ROCK;FIGHTING;STEEL;FIRE,
+Registeel,379,1.9,205.0,Iron,Clear Body,STEEL,FIGHTING;GROUND;FIRE,
+Latias,380,1.4,40.0,Eon,Levitate,DRAGON;PSYCHIC,GHOST;ICE;DRAGON;FAIRY;BUG;DARK,
+Latios,381,2.0,60.0,Eon,Levitate,DRAGON;PSYCHIC,GHOST;ICE;DRAGON;FAIRY;BUG;DARK,
+Kyogre,382,4.5,352.0,Sea Basin,Drizzle,WATER,ELECTRIC;GRASS,
+Groudon,383,3.5,950.0,Continent,Drought,GROUND;FIRE,ICE;WATER;GRASS,
+Rayquaza,384,7.0,206.5,Sky High,Air Lock,DRAGON;FLYING,ICE;ROCK;DRAGON;FAIRY,
+Jirachi,385,0.3,1.1,Wish,Serene Grace,STEEL;PSYCHIC,GHOST;GROUND;FIRE;DARK,
+Deoxys,386,1.7,60.8,DNA,Pressure,PSYCHIC,GHOST;BUG;DARK,
+Turtwig,387,0.4,10.2,Tiny Leaf,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Grotle;Torterra
+Grotle,388,1.1,97.0,Grove,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Torterra
+Torterra,389,2.2,310.0,Continent,Overgrow,GRASS;GROUND,ICE;BUG;FLYING;FIRE,
+Chimchar,390,0.5,6.2,Chimp,Blaze,FIRE,ROCK;WATER;GROUND,Monferno;Infernape
+Monferno,391,0.9,22.0,Playful,Blaze,FIRE;FIGHTING,PSYCHIC;WATER;FLYING;GROUND,Infernape
+Infernape,392,1.2,55.0,Flame,Blaze,FIRE;FIGHTING,PSYCHIC;WATER;FLYING;GROUND,
+Piplup,393,0.4,5.2,Penguin,Torrent,WATER,ELECTRIC;GRASS,Prinplup;Empoleon
+Prinplup,394,0.8,23.0,Penguin,Torrent,WATER,ELECTRIC;GRASS,Empoleon
+Empoleon,395,1.7,84.5,Emperor,Torrent,WATER;STEEL,ELECTRIC;FIGHTING;GROUND,
+Starly,396,0.3,2.0,Starling,Keen Eye,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Staravia;Staraptor
+Staravia,397,0.6,15.5,Starling,Intimidate,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Staraptor
+Staraptor,398,1.2,24.9,Predator,Intimidate,NORMAL;FLYING,ELECTRIC;ICE;ROCK,
+Bidoof,399,0.5,20.0,Plump Mouse,Unaware;Simple,NORMAL,FIGHTING,Bibarel
+Bibarel,400,1.0,31.5,Beaver,Unaware;Simple,NORMAL;WATER,ELECTRIC;FIGHTING;GRASS,
+Kricketot,401,0.3,2.2,Cricket,Shed Skin,BUG,ROCK;FLYING;FIRE,Kricketune
+Kricketune,402,1.0,25.5,Cricket,Swarm,BUG,ROCK;FLYING;FIRE,
+Shinx,403,0.5,9.5,Flash,Intimidate;Rivalry,ELECTRIC,GROUND,Luxio;Luxray
+Luxio,404,0.9,30.5,Spark,Intimidate;Rivalry,ELECTRIC,GROUND,Luxray
+Luxray,405,1.4,42.0,Gleam Eyes,Intimidate;Rivalry,ELECTRIC,GROUND,
+Budew,406,0.2,1.2,Bud,Poison Point;Natural Cure,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,Roselia;Roserade
+Roserade,407,0.9,14.5,Bouquet,Poison Point;Natural Cure,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,
+Cranidos,408,0.9,31.5,Head Butt,Mold Breaker,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,Rampardos
+Rampardos,409,1.6,102.5,Head Butt,Mold Breaker,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,
+Shieldon,410,0.5,57.0,Shield,Sturdy,ROCK;STEEL,FIGHTING;WATER;GROUND,Bastiodon
+Bastiodon,411,1.3,149.5,Shield,Sturdy,ROCK;STEEL,FIGHTING;WATER;GROUND,
+Burmy,412,0.2,3.4,Bagworm,Shed Skin,BUG,ROCK;FLYING;FIRE,Wormadam;Mothim
+Wormadam,413,0.5,6.5,Bagworm,Anticipation,BUG;GRASS;GROUND;STEEL,ICE;ROCK;BUG;FLYING;FIRE;POISON,Mothim
+Mothim,414,0.9,23.3,Moth,Swarm,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,
+Combee,415,0.3,5.5,Tiny Bee,Honey Gather,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,Vespiquen
+Vespiquen,416,1.2,38.5,Beehive,Pressure,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,
+Pachirisu,417,0.4,3.9,EleSquirrel,Run Away;Pickup,ELECTRIC,GROUND,
+Buizel,418,0.7,29.5,Sea Weasel,Swift Swim,WATER,ELECTRIC;GRASS,Floatzel
+Floatzel,419,1.1,33.5,Sea Weasel,Swift Swim,WATER,ELECTRIC;GRASS,
+Cherubi,420,0.4,3.3,Cherry,Chlorophyll,GRASS,ICE;BUG;FLYING;FIRE;POISON,Cherrim
+Cherrim,421,0.5,9.3,Blossom,Flower Gift,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Shellos,422,0.3,6.3,Sea Slug,Storm Drain;Sticky Hold,WATER,ELECTRIC;GRASS,Gastrodon
+Gastrodon,423,0.9,29.9,Sea Slug,Storm Drain;Sticky Hold,WATER;GROUND,GRASS,
+Ambipom,424,1.2,20.3,Long Tail,Technician;Pickup,NORMAL,FIGHTING,
+Drifloon,425,0.4,1.2,Balloon,Unburden;Aftermath,GHOST;FLYING,GHOST;ELECTRIC;ICE;ROCK;DARK,Drifblim
+Drifblim,426,1.2,15.0,Blimp,Unburden;Aftermath,GHOST;FLYING,GHOST;ELECTRIC;ICE;ROCK;DARK,
+Buneary,427,0.4,5.5,Rabbit,Run Away;Klutz,NORMAL,FIGHTING,Lopunny
+Lopunny,428,1.2,33.3,Rabbit,Cute Charm;Klutz,NORMAL;FIGHTING,FIGHTING,
+Mismagius,429,0.9,4.4,Magical,Levitate,GHOST,GHOST;DARK,
+Honchkrow,430,0.9,27.3,Big Boss,Insomnia;Super Luck,DARK;FLYING,ELECTRIC;ICE;ROCK;FAIRY,
+Glameow,431,0.5,3.9,Catty,Own Tempo;Limber,NORMAL,FIGHTING,Purugly
+Purugly,432,1.0,43.8,Tiger Cat,Own Tempo;Thick Fat,NORMAL,FIGHTING,
+Chingling,433,0.2,0.6,Bell,Levitate,PSYCHIC,GHOST;BUG;DARK,Chimecho
+Stunky,434,0.4,19.2,Skunk,Aftermath;Stench,POISON;DARK,GROUND,Skuntank
+Skuntank,435,1.0,38.0,Skunk,Aftermath;Stench,POISON;DARK,GROUND,
+Bronzor,436,0.5,60.5,Bronze,Heatproof;Levitate,STEEL;PSYCHIC,GHOST;GROUND;FIRE;DARK,Bronzong
+Bronzong,437,1.3,187.0,Bronze Bell,Heatproof;Levitate,STEEL;PSYCHIC,GHOST;GROUND;FIRE;DARK,
+Bonsly,438,0.5,15.0,Bonsai,Sturdy;Rock Head,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,Sudowoodo
+Mime Jr.,439,0.6,13.0,Mime,Soundproof;Filter,PSYCHIC;FAIRY,GHOST;STEEL;POISON,Mr. Mime
+Happiny,440,0.6,24.4,Playhouse,Serene Grace;Natural Cure,NORMAL,FIGHTING,Chansey;Blissey
+Chatot,441,0.5,1.9,Music Note,Keen Eye;Tangled Feet,NORMAL;FLYING,ELECTRIC;ICE;ROCK,
+Spiritomb,442,1.0,108.0,Forbidden,Pressure,GHOST;DARK,FAIRY,
+Gible,443,0.7,20.5,Land Shark,Sand Veil,DRAGON;GROUND,ICE;DRAGON;FAIRY,Gabite;Garchomp
+Gabite,444,1.4,56.0,Cave,Sand Veil,DRAGON;GROUND,ICE;DRAGON;FAIRY,Garchomp
+Garchomp,445,1.9,95.0,Mach,Sand Veil,DRAGON;GROUND,ICE;DRAGON;FAIRY,
+Munchlax,446,0.6,105.0,Big Eater,Pickup;Thick Fat,NORMAL,FIGHTING,Snorlax
+Riolu,447,0.7,20.2,Emanation,Steadfast;Inner Focus,FIGHTING,PSYCHIC;FAIRY;FLYING,Lucario
+Lucario,448,1.2,54.0,Aura,Steadfast;Inner Focus,FIGHTING;STEEL,FIGHTING;GROUND;FIRE,
+Hippopotas,449,0.8,49.5,Hippo,Sand Stream,GROUND,ICE;WATER;GRASS,Hippowdon
+Hippowdon,450,2.0,300.0,Heavyweight,Sand Stream,GROUND,ICE;WATER;GRASS,
+Skorupi,451,0.8,12.0,Scorpion,Battle Armor;Sniper,POISON;BUG,ROCK;PSYCHIC;FLYING;FIRE,Drapion
+Drapion,452,1.3,61.5,Ogre Scorpion,Battle Armor;Sniper,POISON;DARK,GROUND,
+Croagunk,453,0.7,23.0,Toxic Mouth,Dry Skin;Anticipation,POISON;FIGHTING,PSYCHIC;FLYING;GROUND,Toxicroak
+Toxicroak,454,1.3,44.4,Toxic Mouth,Dry Skin;Anticipation,POISON;FIGHTING,PSYCHIC;FLYING;GROUND,
+Carnivine,455,1.4,27.0,Bug Catcher,Levitate,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Finneon,456,0.4,7.0,Wing Fish,Storm Drain;Swift Swim,WATER,ELECTRIC;GRASS,Lumineon
+Lumineon,457,1.2,24.0,Neon,Storm Drain;Swift Swim,WATER,ELECTRIC;GRASS,
+Mantyke,458,1.0,65.0,Kite,Water Absorb;Swift Swim,WATER;FLYING,ELECTRIC;ROCK,Mantine
+Snover,459,1.0,50.5,Frost Tree,Snow Warning,GRASS;ICE,ROCK;FIGHTING;BUG;STEEL;FLYING;FIRE;POISON,Abomasnow
+Abomasnow,460,2.2,135.5,Frost Tree,Snow Warning,GRASS;ICE,ROCK;FIGHTING;BUG;STEEL;FLYING;FIRE;POISON,
+Weavile,461,1.1,34.0,Sharp Claw,Pressure,DARK;ICE,ROCK;FIGHTING;FAIRY;BUG;STEEL;FIRE,
+Magnezone,462,1.2,180.0,Magnet Area,Magnet Pull;Sturdy,ELECTRIC;STEEL,FIGHTING;GROUND;FIRE,
+Lickilicky,463,1.7,140.0,Licking,Own Tempo;Oblivious,NORMAL,FIGHTING,
+Rhyperior,464,2.4,282.8,Drill,Solid Rock;Lightning Rod,GROUND;ROCK,ICE;FIGHTING;STEEL;WATER;GROUND;GRASS,
+Tangrowth,465,2.0,128.6,Vine,Chlorophyll;Leaf Guard,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Electivire,466,1.8,138.6,Thunderbolt,Motor Drive,ELECTRIC,GROUND,
+Magmortar,467,1.6,68.0,Blast,Flame Body,FIRE,ROCK;WATER;GROUND,
+Togekiss,468,1.5,38.0,Jubilee,Serene Grace;Hustle,FAIRY;FLYING,ELECTRIC;ICE;ROCK;STEEL;POISON,
+Yanmega,469,1.9,51.5,Ogre Darner,Speed Boost;Tinted Lens,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,
+Leafeon,470,1.0,25.5,Verdant,Leaf Guard,GRASS,ICE;BUG;FLYING;FIRE;POISON,Glaceon;Sylveon
+Glaceon,471,0.8,25.9,Fresh Snow,Snow Cloak,ICE,ROCK;FIGHTING;STEEL;FIRE,Sylveon
+Gliscor,472,2.0,42.5,Fang Scorpion,Sand Veil;Hyper Cutter,GROUND;FLYING,ICE;WATER,
+Mamoswine,473,2.5,291.0,Twin Tusk,Oblivious;Snow Cloak,ICE;GROUND,FIGHTING;STEEL;WATER;FIRE;GRASS,
+Porygon-Z,474,0.9,34.0,Virtual,Adaptability;Download,NORMAL,FIGHTING,
+Gallade,475,1.6,52.0,Blade,Steadfast,PSYCHIC;FIGHTING,GHOST;FAIRY;FLYING,
+Probopass,476,1.4,340.0,Compass,Magnet Pull;Sturdy,ROCK;STEEL,FIGHTING;WATER;GROUND,
+Dusknoir,477,2.2,106.6,Gripper,Pressure,GHOST,GHOST;DARK,
+Froslass,478,1.3,26.6,Snow Land,Snow Cloak,ICE;GHOST,GHOST;ROCK;STEEL;FIRE;DARK,
+Rotom,479,0.3,0.3,Plasma,Levitate,ELECTRIC;GHOST;FIRE;WATER;ICE;FLYING;GRASS,GHOST;GROUND;DARK,
+Uxie,480,0.3,0.3,Knowledge,Levitate,PSYCHIC,GHOST;BUG;DARK,
+Mesprit,481,0.3,0.3,Emotion,Levitate,PSYCHIC,GHOST;BUG;DARK,
+Azelf,482,0.3,0.3,Willpower,Levitate,PSYCHIC,GHOST;BUG;DARK,
+Dialga,483,5.4,683.0,Temporal,Pressure,STEEL;DRAGON,FIGHTING;GROUND,
+Palkia,484,4.2,336.0,Spatial,Pressure,WATER;DRAGON,DRAGON;FAIRY,
+Heatran,485,1.7,430.0,Lava Dome,Flash Fire,FIRE;STEEL,FIGHTING;WATER;GROUND,
+Regigigas,486,3.7,420.0,Colossal,Slow Start,NORMAL,FIGHTING,
+Giratina,487,4.5,750.0,Renegade,Pressure,GHOST;DRAGON,GHOST;ICE;DRAGON;FAIRY;DARK,
+Cresselia,488,1.5,85.6,Lunar,Levitate,PSYCHIC,GHOST;BUG;DARK,
+Phione,489,0.4,3.1,Sea Drifter,Hydration,WATER,ELECTRIC;GRASS,
+Manaphy,490,0.3,1.4,Seafaring,Hydration,WATER,ELECTRIC;GRASS,
+Darkrai,491,1.5,50.5,Pitch-Black,Bad Dreams,DARK,FIGHTING;FAIRY;BUG,
+Shaymin,492,0.2,2.1,Gratitude,Natural Cure,GRASS;FLYING,ICE;BUG;FLYING;FIRE;POISON,
+Arceus,493,3.2,320.0,Alpha,Multitype,NORMAL,FIGHTING,
+Victini,494,0.4,4.0,Victory,Victory Star,PSYCHIC;FIRE,GHOST;ROCK;WATER;GROUND;DARK,
+Snivy,495,0.6,8.1,Grass Snake,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Servine;Serperior
+Servine,496,0.8,16.0,Grass Snake,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Serperior
+Serperior,497,3.3,63.0,Regal,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Tepig,498,0.5,9.9,Fire Pig,Blaze,FIRE,ROCK;WATER;GROUND,Pignite;Emboar
+Pignite,499,1.0,55.5,Fire Pig,Blaze,FIRE;FIGHTING,PSYCHIC;WATER;FLYING;GROUND,Emboar
+Emboar,500,1.6,150.0,Mega Fire Pig,Blaze,FIRE;FIGHTING,PSYCHIC;WATER;FLYING;GROUND,
+Oshawott,501,0.5,5.9,Sea Otter,Torrent,WATER,ELECTRIC;GRASS,Dewott;Samurott
+Dewott,502,0.8,24.5,Discipline,Torrent,WATER,ELECTRIC;GRASS,Samurott
+Samurott,503,1.5,94.6,Formidable,Torrent,WATER;DARK,ELECTRIC;GRASS,
+Patrat,504,0.5,11.6,Scout,Keen Eye;Run Away,NORMAL,FIGHTING,Watchog
+Watchog,505,1.1,27.0,Lookout,Keen Eye;Illuminate,NORMAL,FIGHTING,
+Lillipup,506,0.4,4.1,Puppy,Vital Spirit;Pickup,NORMAL,FIGHTING,Herdier;Stoutland
+Herdier,507,0.9,14.7,Loyal Dog,Intimidate;Sand Rush,NORMAL,FIGHTING,Stoutland
+Stoutland,508,1.2,61.0,Big-Hearted,Intimidate;Sand Rush,NORMAL,FIGHTING,
+Purrloin,509,0.4,10.1,Devious,Limber;Unburden,DARK,FIGHTING;FAIRY;BUG,Liepard
+Liepard,510,1.1,37.5,Cruel,Limber;Unburden,DARK,FIGHTING;FAIRY;BUG,
+Pansage,511,0.6,10.5,Grass Monkey,Gluttony,GRASS,ICE;BUG;FLYING;FIRE;POISON,Simisage
+Simisage,512,1.1,30.5,Thorn Monkey,Gluttony,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Pansear,513,0.6,11.0,High Temp,Gluttony,FIRE,ROCK;WATER;GROUND,Simisear
+Simisear,514,1.0,28.0,Ember,Gluttony,FIRE,ROCK;WATER;GROUND,
+Panpour,515,0.6,13.5,Spray,Gluttony,WATER,ELECTRIC;GRASS,Simipour
+Simipour,516,1.0,29.0,Geyser,Gluttony,WATER,ELECTRIC;GRASS,
+Munna,517,0.6,23.3,Dream Eater,Forewarn;Synchronize,PSYCHIC,GHOST;BUG;DARK,Musharna
+Musharna,518,1.1,60.5,Drowsing,Forewarn;Synchronize,PSYCHIC,GHOST;BUG;DARK,
+Pidove,519,0.3,2.1,Tiny Pigeon,Big Pecks;Super Luck,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Tranquill;Unfezant
+Tranquill,520,0.6,15.0,Wild Pigeon,Big Pecks;Super Luck,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Unfezant
+Unfezant,521,1.2,29.0,Proud,Big Pecks;Super Luck,NORMAL;FLYING,ELECTRIC;ICE;ROCK,
+Blitzle,522,0.8,29.8,Electrified,Motor Drive;Lightning Rod,ELECTRIC,GROUND,Zebstrika
+Zebstrika,523,1.6,79.5,Thunderbolt,Motor Drive;Lightning Rod,ELECTRIC,GROUND,
+Roggenrola,524,0.4,18.0,Mantle,Weak Armor;Sturdy,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,Boldore;Gigalith
+Boldore,525,0.9,102.0,Ore,Weak Armor;Sturdy,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,Gigalith
+Gigalith,526,1.7,260.0,Compressed,Sand Stream;Sturdy,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,
+Woobat,527,0.4,2.1,Bat,Unaware;Klutz,PSYCHIC;FLYING,GHOST;ELECTRIC;ICE;ROCK;DARK,Swoobat
+Swoobat,528,0.9,10.5,Courting,Unaware;Klutz,PSYCHIC;FLYING,GHOST;ELECTRIC;ICE;ROCK;DARK,
+Drilbur,529,0.3,8.5,Mole,Sand Force;Sand Rush,GROUND,ICE;WATER;GRASS,Excadrill
+Excadrill,530,0.7,40.4,Subterrene,Sand Force;Sand Rush,GROUND;STEEL,FIGHTING;WATER;GROUND;FIRE,
+Audino,531,1.1,31.0,Hearing,Regenerator;Healer,NORMAL;FAIRY,FIGHTING,
+Timburr,532,0.6,12.5,Muscular,Sheer Force;Guts,FIGHTING,PSYCHIC;FAIRY;FLYING,Gurdurr;Conkeldurr
+Gurdurr,533,1.2,40.0,Muscular,Sheer Force;Guts,FIGHTING,PSYCHIC;FAIRY;FLYING,Conkeldurr
+Conkeldurr,534,1.4,87.0,Muscular,Sheer Force;Guts,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Tympole,535,0.5,4.5,Tadpole,Hydration;Swift Swim,WATER,ELECTRIC;GRASS,Palpitoad;Seismitoad
+Palpitoad,536,0.8,17.0,Vibration,Hydration;Swift Swim,WATER;GROUND,GRASS,Seismitoad
+Seismitoad,537,1.5,62.0,Vibration,Swift Swim;Poison Touch,WATER;GROUND,GRASS,
+Throh,538,1.3,55.5,Judo,Inner Focus;Guts,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Sawk,539,1.4,51.0,Karate,Sturdy;Inner Focus,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Sewaddle,540,0.3,2.5,Sewing,Swarm;Chlorophyll,BUG;GRASS,ICE;ROCK;BUG;FLYING;FIRE;POISON,Swadloon;Leavanny
+Swadloon,541,0.5,7.3,Leaf-Wrapped,Chlorophyll;Leaf Guard,BUG;GRASS,ICE;ROCK;BUG;FLYING;FIRE;POISON,Leavanny
+Leavanny,542,1.2,20.5,Nurturing,Swarm;Chlorophyll,BUG;GRASS,ICE;ROCK;BUG;FLYING;FIRE;POISON,
+Venipede,543,0.4,5.3,Centipede,Swarm;Poison Point,BUG;POISON,ROCK;PSYCHIC;FLYING;FIRE,Whirlipede;Scolipede
+Whirlipede,544,1.2,58.5,Curlipede,Swarm;Poison Point,BUG;POISON,ROCK;PSYCHIC;FLYING;FIRE,Scolipede
+Scolipede,545,2.5,200.5,Megapede,Swarm;Poison Point,BUG;POISON,ROCK;PSYCHIC;FLYING;FIRE,
+Cottonee,546,0.3,0.6,Cotton Puff,Infiltrator;Prankster,GRASS;FAIRY,ICE;STEEL;FLYING;FIRE;POISON,Whimsicott
+Whimsicott,547,0.7,6.6,Windveiled,Infiltrator;Prankster,GRASS;FAIRY,ICE;STEEL;FLYING;FIRE;POISON,
+Petilil,548,0.5,6.6,Bulb,Own Tempo;Chlorophyll,GRASS,ICE;BUG;FLYING;FIRE;POISON,Lilligant
+Lilligant,549,1.1,16.3,Flowering,Own Tempo;Chlorophyll,GRASS;FIGHTING,ICE;BUG;FLYING;FIRE;POISON,
+Basculin,550,1.0,18.0,Hostile,Adaptability;Reckless,WATER,ELECTRIC;GRASS,Basculegion
+Sandile,551,0.7,15.2,Desert Croc,Intimidate;Moxie,GROUND;DARK,ICE;FIGHTING;FAIRY;BUG;WATER;GRASS,Krokorok;Krookodile
+Krokorok,552,1.0,33.4,Desert Croc,Intimidate;Moxie,GROUND;DARK,ICE;FIGHTING;FAIRY;BUG;WATER;GRASS,Krookodile
+Krookodile,553,1.5,96.3,Intimidation,Intimidate;Moxie,GROUND;DARK,ICE;FIGHTING;FAIRY;BUG;WATER;GRASS,
+Darumaka,554,0.6,37.5,Zen Charm,Hustle,FIRE;ICE,ROCK;WATER;GROUND,Darmanitan
+Darmanitan,555,1.3,92.9,Blazing,Sheer Force,FIRE;ICE,ROCK;WATER;GROUND,
+Maractus,556,1.0,28.0,Cactus,Chlorophyll;Water Absorb,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Dwebble,557,0.3,14.5,Rock Inn,Sturdy;Shell Armor,BUG;ROCK,ROCK;STEEL;WATER,Crustle
+Crustle,558,1.4,200.0,Stone Home,Sturdy;Shell Armor,BUG;ROCK,ROCK;STEEL;WATER,
+Scraggy,559,0.6,11.8,Shedding,Moxie;Shed Skin,DARK;FIGHTING,FIGHTING;FAIRY;FLYING,Scrafty
+Scrafty,560,1.1,30.0,Hoodlum,Moxie;Shed Skin,DARK;FIGHTING,FIGHTING;FAIRY;FLYING,
+Sigilyph,561,1.4,14.0,Avianoid,Wonder Skin;Magic Guard,PSYCHIC;FLYING,GHOST;ELECTRIC;ICE;ROCK;DARK,
+Yamask,562,0.5,1.5,Spirit,Mummy,GHOST;GROUND,GHOST;DARK,Cofagrigus
+Cofagrigus,563,1.7,76.5,Coffin,Mummy,GHOST,GHOST;DARK,
+Tirtouga,564,0.7,16.5,Prototurtle,Sturdy;Solid Rock,WATER;ROCK,ELECTRIC;FIGHTING;GROUND;GRASS,Carracosta
+Carracosta,565,1.2,81.0,Prototurtle,Sturdy;Solid Rock,WATER;ROCK,ELECTRIC;FIGHTING;GROUND;GRASS,
+Archen,566,0.5,9.5,First Bird,Defeatist,ROCK;FLYING,ELECTRIC;ICE;ROCK;STEEL;WATER,Archeops
+Archeops,567,1.4,32.0,First Bird,Defeatist,ROCK;FLYING,ELECTRIC;ICE;ROCK;STEEL;WATER,
+Trubbish,568,0.6,31.0,Trash Bag,Stench;Sticky Hold,POISON,PSYCHIC;GROUND,Garbodor
+Garbodor,569,1.9,107.3,Trash Heap,Weak Armor;Stench,POISON,PSYCHIC;GROUND,
+Zorua,570,0.7,12.5,Tricky Fox,Illusion,DARK;NORMAL;GHOST,FIGHTING;FAIRY;BUG,Zoroark
+Zoroark,571,1.6,81.1,Illusion Fox,Illusion,DARK;NORMAL;GHOST,FIGHTING;FAIRY;BUG,
+Minccino,572,0.4,5.8,Chinchilla,Cute Charm;Technician,NORMAL,FIGHTING,Cinccino
+Cinccino,573,0.5,7.5,Scarf,Cute Charm;Technician,NORMAL,FIGHTING,
+Gothita,574,0.4,5.8,Fixation,Competitive;Frisk,PSYCHIC,GHOST;BUG;DARK,Gothorita;Gothitelle
+Gothorita,575,0.7,18.0,Manipulate,Competitive;Frisk,PSYCHIC,GHOST;BUG;DARK,Gothitelle
+Gothitelle,576,1.5,44.0,Astral Body,Competitive;Frisk,PSYCHIC,GHOST;BUG;DARK,
+Solosis,577,0.3,1.0,Cell,Magic Guard;Overcoat,PSYCHIC,GHOST;BUG;DARK,Duosion;Reuniclus
+Duosion,578,0.6,8.0,Mitosis,Magic Guard;Overcoat,PSYCHIC,GHOST;BUG;DARK,Reuniclus
+Reuniclus,579,1.0,20.1,Multiplying,Magic Guard;Overcoat,PSYCHIC,GHOST;BUG;DARK,
+Ducklett,580,0.5,5.5,Water Bird,Keen Eye;Big Pecks,WATER;FLYING,ELECTRIC;ROCK,Swanna
+Swanna,581,1.3,24.2,White Bird,Keen Eye;Big Pecks,WATER;FLYING,ELECTRIC;ROCK,
+Vanillite,582,0.4,5.7,Fresh Snow,Ice Body;Snow Cloak,ICE,ROCK;FIGHTING;STEEL;FIRE,Vanillish;Vanilluxe
+Vanillish,583,1.1,41.0,Icy Snow,Ice Body;Snow Cloak,ICE,ROCK;FIGHTING;STEEL;FIRE,Vanilluxe
+Vanilluxe,584,1.3,57.5,Snowstorm,Snow Warning;Ice Body,ICE,ROCK;FIGHTING;STEEL;FIRE,
+Deerling,585,0.6,19.5,Season,Chlorophyll;Sap Sipper,NORMAL;GRASS,ICE;FIGHTING;BUG;FLYING;FIRE;POISON,Sawsbuck
+Sawsbuck,586,1.9,92.5,Season,Chlorophyll;Sap Sipper,NORMAL;GRASS,ICE;FIGHTING;BUG;FLYING;FIRE;POISON,
+Emolga,587,0.4,5.0,Sky Squirrel,Static,ELECTRIC;FLYING,ICE;ROCK,
+Karrablast,588,0.5,5.9,Clamping,Swarm;Shed Skin,BUG,ROCK;FLYING;FIRE,Escavalier
+Escavalier,589,1.0,33.0,Cavalry,Swarm;Shell Armor,BUG;STEEL,FIRE,
+Foongus,590,0.2,1.0,Mushroom,Effect Spore,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,Amoonguss
+Amoonguss,591,0.6,10.5,Mushroom,Effect Spore,GRASS;POISON,ICE;PSYCHIC;FLYING;FIRE,
+Frillish,592,1.2,33.0,Floating,Water Absorb;Cursed Body,WATER;GHOST,GHOST;ELECTRIC;DARK;GRASS,Jellicent
+Jellicent,593,2.2,135.0,Floating,Water Absorb;Cursed Body,WATER;GHOST,GHOST;ELECTRIC;DARK;GRASS,
+Alomomola,594,1.2,31.6,Caring,Hydration;Healer,WATER,ELECTRIC;GRASS,
+Joltik,595,0.1,0.6,Attaching,Unnerve;Compound Eyes,BUG;ELECTRIC,ROCK;FIRE,Galvantula
+Galvantula,596,0.8,14.3,EleSpider,Unnerve;Compound Eyes,BUG;ELECTRIC,ROCK;FIRE,
+Ferroseed,597,0.6,18.8,Thorn Seed,Iron Barbs,GRASS;STEEL,FIGHTING;FIRE,Ferrothorn
+Ferrothorn,598,1.0,110.0,Thorn Pod,Iron Barbs,GRASS;STEEL,FIGHTING;FIRE,
+Klink,599,0.3,21.0,Gear,Plus;Minus,STEEL,FIGHTING;GROUND;FIRE,Klang;Klinklang
+Klang,600,0.6,51.0,Gear,Plus;Minus,STEEL,FIGHTING;GROUND;FIRE,Klinklang
+Klinklang,601,0.6,81.0,Gear,Plus;Minus,STEEL,FIGHTING;GROUND;FIRE,
+Tynamo,602,0.2,0.3,EleFish,Levitate,ELECTRIC,GROUND,Eelektrik;Eelektross
+Eelektrik,603,1.2,22.0,EleFish,Levitate,ELECTRIC,GROUND,Eelektross
+Eelektross,604,2.1,80.5,EleFish,Levitate,ELECTRIC,GROUND,
+Elgyem,605,0.5,9.0,Cerebral,Telepathy;Synchronize,PSYCHIC,GHOST;BUG;DARK,Beheeyem
+Beheeyem,606,1.0,34.5,Cerebral,Telepathy;Synchronize,PSYCHIC,GHOST;BUG;DARK,
+Litwick,607,0.3,3.1,Candle,Flame Body;Flash Fire,GHOST;FIRE,GHOST;ROCK;GROUND;WATER;DARK,Lampent;Chandelure
+Lampent,608,0.6,13.0,Lamp,Flame Body;Flash Fire,GHOST;FIRE,GHOST;ROCK;GROUND;WATER;DARK,Chandelure
+Chandelure,609,1.0,34.3,Luring,Flame Body;Flash Fire,GHOST;FIRE,GHOST;ROCK;GROUND;WATER;DARK,
+Axew,610,0.6,18.0,Tusk,Mold Breaker;Rivalry,DRAGON,ICE;DRAGON;FAIRY,Fraxure;Haxorus
+Fraxure,611,1.0,36.0,Axe Jaw,Mold Breaker;Rivalry,DRAGON,ICE;DRAGON;FAIRY,Haxorus
+Haxorus,612,1.8,105.5,Axe Jaw,Mold Breaker;Rivalry,DRAGON,ICE;DRAGON;FAIRY,
+Cubchoo,613,0.5,8.5,Chill,Slush Rush;Snow Cloak,ICE,ROCK;FIGHTING;STEEL;FIRE,Beartic
+Beartic,614,2.6,260.0,Freezing,Slush Rush;Snow Cloak,ICE,ROCK;FIGHTING;STEEL;FIRE,
+Cryogonal,615,1.1,148.0,Crystallizing,Levitate,ICE,ROCK;FIGHTING;STEEL;FIRE,
+Shelmet,616,0.4,7.7,Snail,Hydration;Shell Armor,BUG,ROCK;FLYING;FIRE,Accelgor
+Accelgor,617,0.8,25.3,Shell Out,Hydration;Sticky Hold,BUG,ROCK;FLYING;FIRE,
+Stunfisk,618,0.7,11.0,Trap,Limber;Static,GROUND;ELECTRIC;STEEL,ICE;WATER;GROUND;GRASS,
+Mienfoo,619,0.9,20.0,Martial Arts,Regenerator;Inner Focus,FIGHTING,PSYCHIC;FAIRY;FLYING,Mienshao
+Mienshao,620,1.4,35.5,Martial Arts,Regenerator;Inner Focus,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Druddigon,621,1.6,139.0,Cave,Rough Skin;Sheer Force,DRAGON,ICE;DRAGON;FAIRY,
+Golett,622,1.0,92.0,Automaton,Klutz;Iron Fist,GROUND;GHOST,GHOST;ICE;WATER;DARK;GRASS,Golurk
+Golurk,623,2.8,330.0,Automaton,Klutz;Iron Fist,GROUND;GHOST,GHOST;ICE;WATER;DARK;GRASS,
+Pawniard,624,0.5,10.2,Sharp Blade,Defiant;Inner Focus,DARK;STEEL,FIGHTING;GROUND;FIRE,Bisharp
+Bisharp,625,1.6,70.0,Sword Blade,Defiant;Inner Focus,DARK;STEEL,FIGHTING;GROUND;FIRE,
+Bouffalant,626,1.6,94.6,Bash Buffalo,Sap Sipper;Reckless,NORMAL,FIGHTING,
+Rufflet,627,0.5,10.5,Eaglet,Keen Eye;Sheer Force,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Braviary
+Braviary,628,1.5,41.0,Valiant,Keen Eye;Sheer Force,NORMAL;FLYING;PSYCHIC,ELECTRIC;ICE;ROCK,
+Vullaby,629,0.5,9.0,Diapered,Big Pecks;Overcoat,DARK;FLYING,ELECTRIC;ICE;ROCK;FAIRY,Mandibuzz
+Mandibuzz,630,1.2,39.5,Bone Vulture,Big Pecks;Overcoat,DARK;FLYING,ELECTRIC;ICE;ROCK;FAIRY,
+Heatmor,631,1.4,58.0,Anteater,Flash Fire;Gluttony,FIRE,ROCK;WATER;GROUND,
+Durant,632,0.3,33.0,Iron Ant,Swarm;Hustle,BUG;STEEL,FIRE,
+Deino,633,0.8,17.3,Irate,Hustle,DARK;DRAGON,ICE;FIGHTING;DRAGON;FAIRY;BUG,Zweilous;Hydreigon
+Zweilous,634,1.4,50.0,Hostile,Hustle,DARK;DRAGON,ICE;FIGHTING;DRAGON;FAIRY;BUG,Hydreigon
+Hydreigon,635,1.8,160.0,Brutal,Levitate,DARK;DRAGON,ICE;FIGHTING;DRAGON;FAIRY;BUG,
+Larvesta,636,1.1,28.8,Torch,Flame Body,BUG;FIRE,ROCK;WATER;FLYING,Volcarona
+Volcarona,637,1.6,46.0,Sun,Flame Body,BUG;FIRE,ROCK;WATER;FLYING,
+Cobalion,638,2.1,250.0,Iron Will,Justified,STEEL;FIGHTING,FIGHTING;GROUND;FIRE,
+Terrakion,639,1.9,260.0,Cavern,Justified,ROCK;FIGHTING,FIGHTING;PSYCHIC;FAIRY;STEEL;WATER;GROUND;GRASS,
+Virizion,640,2.0,200.0,Grassland,Justified,GRASS;FIGHTING,ICE;PSYCHIC;FAIRY;FLYING;FIRE;POISON,
+Tornadus,641,1.5,63.0,Cyclone,Prankster,FLYING,ELECTRIC;ICE;ROCK,
+Thundurus,642,1.5,61.0,Bolt Strike,Prankster,ELECTRIC;FLYING,ICE;ROCK,
+Reshiram,643,3.2,330.0,Vast White,Turboblaze,DRAGON;FIRE,ROCK;DRAGON;GROUND,
+Zekrom,644,2.9,345.0,Deep Black,Teravolt,DRAGON;ELECTRIC,ICE;DRAGON;FAIRY;GROUND,
+Landorus,645,1.5,68.0,Abundance,Sand Force,GROUND;FLYING,ICE;WATER,
+Kyurem,646,3.0,325.0,Boundary,Pressure,DRAGON;ICE,ROCK;FIGHTING;DRAGON;FAIRY;STEEL,
+Keldeo,647,1.4,48.5,Colt,Justified,WATER;FIGHTING,ELECTRIC;FAIRY;PSYCHIC;FLYING;GRASS,
+Meloetta,648,0.6,6.5,Melody,Serene Grace,NORMAL;PSYCHIC;FIGHTING,BUG;DARK,
+Genesect,649,1.5,82.5,Paleozoic,Download,BUG;STEEL,FIRE,
+Chespin,650,0.4,9.0,Spiny Nut,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Quilladin;Chesnaught
+Quilladin,651,0.7,29.0,Spiny Armor,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Chesnaught
+Chesnaught,652,1.6,90.0,Spiny Armor,Overgrow,GRASS;FIGHTING,ICE;PSYCHIC;FAIRY;FLYING;FIRE;POISON,
+Fennekin,653,0.4,9.4,Fox,Blaze,FIRE,ROCK;WATER;GROUND,Braixen;Delphox
+Braixen,654,1.0,14.5,Fox,Blaze,FIRE,ROCK;WATER;GROUND,Delphox
+Delphox,655,1.5,39.0,Fox,Blaze,FIRE;PSYCHIC,GHOST;ROCK;GROUND;WATER;DARK,
+Froakie,656,0.3,7.0,Bubble Frog,Torrent,WATER,ELECTRIC;GRASS,Frogadier;Greninja
+Frogadier,657,0.6,10.9,Bubble Frog,Torrent,WATER,ELECTRIC;GRASS,Greninja
+Greninja,658,1.5,40.0,Ninja,Torrent,WATER;DARK,ELECTRIC;FIGHTING;FAIRY;BUG;GRASS,
+Bunnelby,659,0.4,5.0,Digging,Pickup;Cheek Pouch,NORMAL,FIGHTING,Diggersby
+Diggersby,660,1.0,42.4,Digging,Pickup;Cheek Pouch,NORMAL;GROUND,ICE;FIGHTING;WATER;GRASS,
+Fletchling,661,0.3,1.7,Tiny Robin,Big Pecks,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Fletchinder;Talonflame
+Fletchinder,662,0.7,16.0,Ember,Flame Body,FIRE;FLYING,ELECTRIC;ROCK;WATER,Talonflame
+Talonflame,663,1.2,24.5,Scorching,Flame Body,FIRE;FLYING,ELECTRIC;ROCK;WATER,
+Scatterbug,664,0.3,2.5,Scatterdust,Shield Dust;Compound Eyes,BUG,ROCK;FLYING;FIRE,Spewpa;Vivillon
+Spewpa,665,0.3,8.4,Scatterdust,Shed Skin,BUG,ROCK;FLYING;FIRE,Vivillon
+Vivillon,666,1.2,17.0,Scale,Shield Dust;Compound Eyes,BUG;FLYING,ELECTRIC;ICE;ROCK;FLYING;FIRE,
+Litleo,667,0.6,13.5,Lion Cub,Unnerve;Rivalry,FIRE;NORMAL,ROCK;FIGHTING;WATER;GROUND,Pyroar
+Pyroar,668,1.5,81.5,Royal,Unnerve;Rivalry,FIRE;NORMAL,ROCK;FIGHTING;WATER;GROUND,
+Flabébé,669,0.1,0.1,Single Bloom,Flower Veil,FAIRY,STEEL;POISON,Floette;Florges
+Floette,670,0.2,0.9,Single Bloom,Flower Veil,FAIRY,STEEL;POISON,Florges
+Florges,671,1.1,10.0,Garden,Flower Veil,FAIRY,STEEL;POISON,
+Skiddo,672,0.9,31.0,Mount,Sap Sipper,GRASS,ICE;BUG;FLYING;FIRE;POISON,Gogoat
+Gogoat,673,1.7,91.0,Mount,Sap Sipper,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Pancham,674,0.6,8.0,Playful,Mold Breaker;Iron Fist,FIGHTING,PSYCHIC;FAIRY;FLYING,Pangoro
+Pangoro,675,2.1,136.0,Daunting,Mold Breaker;Iron Fist,FIGHTING;DARK,FIGHTING;FAIRY;FLYING,
+Furfrou,676,1.2,28.0,Poodle,Fur Coat,NORMAL,FIGHTING,
+Espurr,677,0.3,3.5,Restraint,Keen Eye;Infiltrator,PSYCHIC,GHOST;BUG;DARK,Meowstic
+Meowstic,678,0.6,8.5,Constraint,Keen Eye;Infiltrator,PSYCHIC,GHOST;BUG;DARK,
+Honedge,679,0.8,2.0,Sword,No Guard,STEEL;GHOST,GHOST;GROUND;FIRE;DARK,Doublade;Aegislash
+Doublade,680,0.8,4.5,Sword,No Guard,STEEL;GHOST,GHOST;GROUND;FIRE;DARK,Aegislash
+Aegislash,681,1.7,53.0,Royal Sword,Stance Change,STEEL;GHOST,GHOST;GROUND;FIRE;DARK,
+Spritzee,682,0.2,0.5,Perfume,Healer,FAIRY,STEEL;POISON,Aromatisse
+Aromatisse,683,0.8,15.5,Fragrance,Healer,FAIRY,STEEL;POISON,
+Swirlix,684,0.4,3.5,Cotton Candy,Sweet Veil,FAIRY,STEEL;POISON,Slurpuff
+Slurpuff,685,0.8,5.0,Meringue,Sweet Veil,FAIRY,STEEL;POISON,
+Inkay,686,0.4,3.5,Revolving,Contrary;Suction Cups,DARK;PSYCHIC,FAIRY;BUG,Malamar
+Malamar,687,1.5,47.0,Overturning,Contrary;Suction Cups,DARK;PSYCHIC,FAIRY;BUG,
+Binacle,688,0.5,31.0,Two-Handed,Tough Claws;Sniper,ROCK;WATER,ELECTRIC;FIGHTING;GROUND;GRASS,Barbaracle
+Barbaracle,689,1.3,96.0,Collective,Tough Claws;Sniper,ROCK;WATER,ELECTRIC;FIGHTING;GROUND;GRASS,
+Skrelp,690,0.5,7.3,Mock Kelp,Poison Point;Poison Touch,POISON;WATER,ELECTRIC;PSYCHIC;GROUND,Dragalge
+Dragalge,691,1.8,81.5,Mock Kelp,Poison Point;Poison Touch,POISON;DRAGON,ICE;DRAGON;PSYCHIC;GROUND,
+Clauncher,692,0.5,8.3,Water Gun,Mega Launcher,WATER,ELECTRIC;GRASS,Clawitzer
+Clawitzer,693,1.3,35.3,Howitzer,Mega Launcher,WATER,ELECTRIC;GRASS,
+Helioptile,694,0.5,6.0,Generator,Sand Veil;Dry Skin,ELECTRIC;NORMAL,FIGHTING;GROUND,Heliolisk
+Heliolisk,695,1.0,21.0,Generator,Sand Veil;Dry Skin,ELECTRIC;NORMAL,FIGHTING;GROUND,
+Tyrunt,696,0.8,26.0,Royal Heir,Strong Jaw,ROCK;DRAGON,ICE;FIGHTING;DRAGON;FAIRY;STEEL;GROUND,Tyrantrum
+Tyrantrum,697,2.5,270.0,Despot,Strong Jaw,ROCK;DRAGON,ICE;FIGHTING;DRAGON;FAIRY;STEEL;GROUND,
+Amaura,698,1.3,25.2,Tundra,Refrigerate,ROCK;ICE,ROCK;FIGHTING;STEEL;WATER;GROUND;GRASS,Aurorus
+Aurorus,699,2.7,225.0,Tundra,Refrigerate,ROCK;ICE,ROCK;FIGHTING;STEEL;WATER;GROUND;GRASS,
+Sylveon,700,1.0,23.5,Intertwining,Cute Charm,FAIRY,STEEL;POISON,
+Hawlucha,701,0.8,21.5,Wrestling,Limber;Unburden,FIGHTING;FLYING,ELECTRIC;ICE;PSYCHIC;FAIRY;FLYING,
+Dedenne,702,0.2,2.2,Antenna,Pickup;Cheek Pouch,ELECTRIC;FAIRY,GROUND;POISON,
+Carbink,703,0.3,5.7,Jewel,Clear Body,ROCK;FAIRY,STEEL;WATER;GROUND;GRASS,
+Goomy,704,0.3,2.8,Soft Tissue,Hydration;Sap Sipper,DRAGON,ICE;DRAGON;FAIRY,Sliggoo;Goodra
+Sliggoo,705,0.8,17.5,Soft Tissue,Hydration;Sap Sipper,DRAGON;STEEL,ICE;DRAGON;FAIRY,Goodra
+Goodra,706,2.0,150.5,Dragon,Hydration;Sap Sipper,DRAGON;STEEL,ICE;DRAGON;FAIRY,
+Klefki,707,0.2,3.0,Key Ring,Prankster,STEEL;FAIRY,GROUND;FIRE,
+Phantump,708,0.4,7.0,Stump,Frisk;Natural Cure,GHOST;GRASS,GHOST;ICE;FLYING;FIRE;DARK,Trevenant
+Trevenant,709,1.5,71.0,Elder Tree,Frisk;Natural Cure,GHOST;GRASS,GHOST;ICE;FLYING;FIRE;DARK,
+Pumpkaboo,710,0.4,5.0,Pumpkin,Pickup;Frisk,GHOST;GRASS,GHOST;ICE;FLYING;FIRE;DARK,Gourgeist
+Gourgeist,711,0.9,12.5,Pumpkin,Pickup;Frisk,GHOST;GRASS,GHOST;ICE;FLYING;FIRE;DARK,
+Bergmite,712,1.0,99.5,Ice Chunk,Own Tempo;Ice Body,ICE,ROCK;FIGHTING;STEEL;FIRE,Avalugg
+Avalugg,713,2.0,505.0,Iceberg,Own Tempo;Ice Body,ICE;GROUND,ROCK;FIGHTING;STEEL;FIRE,
+Noibat,714,0.5,8.0,Sound Wave,Infiltrator;Frisk,FLYING;DRAGON,ROCK;ICE;DRAGON;FAIRY,Noivern
+Noivern,715,1.5,85.0,Sound Wave,Infiltrator;Frisk,FLYING;DRAGON,ROCK;ICE;DRAGON;FAIRY,
+Xerneas,716,3.0,215.0,Life,Fairy Aura,FAIRY,STEEL;POISON,
+Yveltal,717,5.8,203.0,Destruction,Dark Aura,DARK;FLYING,ELECTRIC;ICE;ROCK;FAIRY,
+Zygarde,718,5.0,305.0,Order,Aura Break,DRAGON;GROUND,ICE;DRAGON;FAIRY,
+Diancie,719,0.7,8.8,Jewel,Clear Body,ROCK;FAIRY,STEEL;WATER;GROUND;GRASS,
+Hoopa,720,0.5,9.0,Mischief,Magician,PSYCHIC;GHOST;DARK,GHOST;DARK,
+Volcanion,721,1.7,195.0,Steam,Water Absorb,FIRE;WATER,ELECTRIC;ROCK;GROUND,
+Rowlet,722,0.3,1.5,Grass Quill,Overgrow,GRASS;FLYING,ICE;ROCK;FLYING;FIRE;POISON,Dartrix;Decidueye
+Dartrix,723,0.7,16.0,Blade Quill,Overgrow,GRASS;FLYING,ICE;ROCK;FLYING;FIRE;POISON,Decidueye
+Decidueye,724,1.6,36.6,Arrow Quill,Overgrow,GRASS;GHOST;FIGHTING,GHOST;ICE;FLYING;FIRE;DARK,
+Litten,725,0.4,4.3,Fire Cat,Blaze,FIRE,ROCK;WATER;GROUND,Torracat;Incineroar
+Torracat,726,0.7,25.0,Fire Cat,Blaze,FIRE,ROCK;WATER;GROUND,Incineroar
+Incineroar,727,1.8,83.0,Heel,Blaze,FIRE;DARK,ROCK;FIGHTING;WATER;GROUND,
+Popplio,728,0.4,7.5,Sea Lion,Torrent,WATER,ELECTRIC;GRASS,Brionne;Primarina
+Brionne,729,0.6,17.5,Pop Star,Torrent,WATER,ELECTRIC;GRASS,Primarina
+Primarina,730,1.8,44.0,Soloist,Torrent,WATER;FAIRY,ELECTRIC;GRASS;POISON,
+Pikipek,731,0.3,1.2,Woodpecker,Keen Eye;Skill Link,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Trumbeak;Toucannon
+Trumbeak,732,0.6,14.8,Bugle Beak,Keen Eye;Skill Link,NORMAL;FLYING,ELECTRIC;ICE;ROCK,Toucannon
+Toucannon,733,1.1,26.0,Cannon,Keen Eye;Skill Link,NORMAL;FLYING,ELECTRIC;ICE;ROCK,
+Yungoos,734,0.4,6.0,Loitering,Stakeout;Strong Jaw,NORMAL,FIGHTING,Gumshoos
+Gumshoos,735,0.7,14.2,Stakeout,Stakeout;Strong Jaw,NORMAL,FIGHTING,
+Grubbin,736,0.4,4.4,Larva,Swarm,BUG,ROCK;FLYING;FIRE,Charjabug;Vikavolt
+Charjabug,737,0.5,10.5,Battery,Battery,BUG;ELECTRIC,ROCK;FIRE,Vikavolt
+Vikavolt,738,1.5,45.0,Stag Beetle,Levitate,BUG;ELECTRIC,ROCK;FIRE,
+Crabrawler,739,0.6,7.0,Boxing,Hyper Cutter;Iron Fist,FIGHTING,PSYCHIC;FAIRY;FLYING,Crabominable
+Crabominable,740,1.7,180.0,Woolly Crab,Hyper Cutter;Iron Fist,FIGHTING;ICE,FIGHTING;PSYCHIC;FAIRY;STEEL;FLYING;FIRE,
+Oricorio,741,0.6,3.4,Dancing,Dancer,FIRE;FLYING;ELECTRIC;PSYCHIC;GHOST,ELECTRIC;ROCK;WATER,
+Cutiefly,742,0.1,0.2,Bee Fly,Shield Dust;Honey Gather,BUG;FAIRY,ROCK;STEEL;FLYING;FIRE;POISON,Ribombee
+Ribombee,743,0.2,0.5,Bee Fly,Shield Dust;Honey Gather,BUG;FAIRY,ROCK;STEEL;FLYING;FIRE;POISON,
+Rockruff,744,0.5,9.2,Puppy,Keen Eye;Vital Spirit,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,Lycanroc;Lycanroc;Lycanroc
+Lycanroc,745,0.8,25.0,Wolf,Keen Eye;Sand Rush,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,Lycanroc;Lycanroc
+Wishiwashi,746,0.2,0.3,Small Fry,Schooling,WATER,ELECTRIC;GRASS,
+Mareanie,747,0.4,8.0,Brutal Star,Limber;Merciless,POISON;WATER,ELECTRIC;PSYCHIC;GROUND,Toxapex
+Toxapex,748,0.7,14.5,Brutal Star,Limber;Merciless,POISON;WATER,ELECTRIC;PSYCHIC;GROUND,
+Mudbray,749,1.0,110.0,Donkey,Own Tempo;Stamina,GROUND,ICE;WATER;GRASS,Mudsdale
+Mudsdale,750,2.5,920.0,Draft Horse,Own Tempo;Stamina,GROUND,ICE;WATER;GRASS,
+Dewpider,751,0.3,4.0,Water Bubble,Water Bubble,WATER;BUG,ELECTRIC;ROCK;FLYING,Araquanid
+Araquanid,752,1.8,82.0,Water Bubble,Water Bubble,WATER;BUG,ELECTRIC;ROCK;FLYING,
+Fomantis,753,0.3,1.5,Sickle Grass,Leaf Guard,GRASS,ICE;BUG;FLYING;FIRE;POISON,Lurantis
+Lurantis,754,0.9,18.5,Bloom Sickle,Leaf Guard,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Morelull,755,0.2,1.5,Illuminating,Effect Spore;Illuminate,GRASS;FAIRY,ICE;STEEL;FLYING;FIRE;POISON,Shiinotic
+Shiinotic,756,1.0,11.5,Illuminating,Effect Spore;Illuminate,GRASS;FAIRY,ICE;STEEL;FLYING;FIRE;POISON,
+Salandit,757,0.6,4.8,Toxic Lizard,Corrosion,POISON;FIRE,ROCK;PSYCHIC;WATER;GROUND,Salazzle
+Salazzle,758,1.2,22.2,Toxic Lizard,Corrosion,POISON;FIRE,ROCK;PSYCHIC;WATER;GROUND,
+Stufful,759,0.5,6.8,Flailing,Fluffy;Klutz,NORMAL;FIGHTING,FIGHTING;PSYCHIC;FAIRY;FLYING,Bewear
+Bewear,760,2.1,135.0,Strong Arm,Fluffy;Klutz,NORMAL;FIGHTING,FIGHTING;PSYCHIC;FAIRY;FLYING,
+Bounsweet,761,0.3,3.2,Fruit,Oblivious;Leaf Guard,GRASS,ICE;BUG;FLYING;FIRE;POISON,Steenee;Tsareena
+Steenee,762,0.7,8.2,Fruit,Oblivious;Leaf Guard,GRASS,ICE;BUG;FLYING;FIRE;POISON,Tsareena
+Tsareena,763,1.2,21.4,Fruit,Leaf Guard;Queenly Majesty,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Comfey,764,0.1,0.3,Posy Picker,Flower Veil;Triage,FAIRY,STEEL;POISON,
+Oranguru,765,1.5,76.0,Sage,Telepathy;Inner Focus,NORMAL;PSYCHIC,BUG;DARK,
+Passimian,766,2.0,82.8,Teamwork,Receiver,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Wimpod,767,0.5,12.0,Turn Tail,Wimp Out,BUG;WATER,ELECTRIC;ROCK;FLYING,Golisopod
+Golisopod,768,2.0,108.0,Hard Scale,Emergency Exit,BUG;WATER,ELECTRIC;ROCK;FLYING,
+Sandygast,769,0.5,70.0,Sand Heap,Water Compaction,GHOST;GROUND,GHOST;ICE;WATER;DARK;GRASS,Palossand
+Palossand,770,1.3,250.0,Sand Castle,Water Compaction,GHOST;GROUND,GHOST;ICE;WATER;DARK;GRASS,
+Pyukumuku,771,0.3,1.2,Sea Cucumber,Innards Out,WATER,ELECTRIC;GRASS,
+Type: Null,772,1.9,120.5,Synthetic,Battle Armor,NORMAL,FIGHTING,Silvally
+Silvally,773,2.3,100.5,Synthetic,RKS System,NORMAL,FIGHTING,
+Minior,774,0.3,40.0,Meteor,Shields Down,ROCK;FLYING,ELECTRIC;ICE;ROCK;STEEL;WATER,
+Komala,775,0.4,19.9,Drowsing,Comatose,NORMAL,FIGHTING,
+Turtonator,776,2.0,212.0,Blast Turtle,Shell Armor,FIRE;DRAGON,ROCK;DRAGON;GROUND,
+Togedemaru,777,0.3,3.3,Roly-Poly,Iron Barbs;Lightning Rod,ELECTRIC;STEEL,FIGHTING;GROUND;FIRE,
+Mimikyu,778,0.2,0.7,Disguise,Disguise,GHOST;FAIRY,GHOST;STEEL,
+Bruxish,779,0.9,19.0,Gnash Teeth,Dazzling;Strong Jaw,WATER;PSYCHIC,GHOST;ELECTRIC;BUG;DARK;GRASS,
+Drampa,780,3.0,185.0,Placid,Sap Sipper;Berserk,NORMAL;DRAGON,ICE;FIGHTING;DRAGON;FAIRY,
+Dhelmise,781,3.9,210.0,Sea Creeper,Steelworker,GHOST;GRASS,GHOST;ICE;FLYING;FIRE;DARK,
+Jangmo-o,782,0.6,29.7,Scaly,Soundproof;Bulletproof,DRAGON,ICE;DRAGON;FAIRY,Hakamo-o;Kommo-o
+Hakamo-o,783,1.2,47.0,Scaly,Soundproof;Bulletproof,DRAGON;FIGHTING,ICE;DRAGON;FAIRY;PSYCHIC;FLYING,Kommo-o
+Kommo-o,784,1.6,78.2,Scaly,Soundproof;Bulletproof,DRAGON;FIGHTING,ICE;DRAGON;FAIRY;PSYCHIC;FLYING,
+Tapu Koko,785,1.8,20.5,Land Spirit,Electric Surge,ELECTRIC;FAIRY,GROUND;POISON,
+Tapu Lele,786,1.2,18.6,Land Spirit,Psychic Surge,PSYCHIC;FAIRY,GHOST;STEEL;POISON,
+Tapu Bulu,787,1.9,45.5,Land Spirit,Grassy Surge,GRASS;FAIRY,ICE;STEEL;FLYING;FIRE;POISON,
+Tapu Fini,788,1.3,21.2,Land Spirit,Misty Surge,WATER;FAIRY,ELECTRIC;GRASS;POISON,
+Cosmog,789,0.2,0.1,Nebula,Unaware,PSYCHIC,GHOST;BUG;DARK,Cosmoem;Solgaleo;Lunala
+Cosmoem,790,0.1,999.9,Protostar,Sturdy,PSYCHIC,GHOST;BUG;DARK,Solgaleo;Lunala
+Solgaleo,791,3.4,230.0,Sunne,Full Metal Body,PSYCHIC;STEEL,GHOST;GROUND;FIRE;DARK,Lunala
+Lunala,792,4.0,120.0,Moone,Shadow Shield,PSYCHIC;GHOST,GHOST;DARK,
+Nihilego,793,1.2,55.5,Parasite,Beast Boost,ROCK;POISON,PSYCHIC;STEEL;WATER;GROUND,
+Buzzwole,794,2.4,333.6,Swollen,Beast Boost,BUG;FIGHTING,PSYCHIC;FAIRY;FLYING;FIRE,
+Pheromosa,795,1.8,25.0,Lissome,Beast Boost,BUG;FIGHTING,PSYCHIC;FAIRY;FLYING;FIRE,
+Xurkitree,796,3.8,100.0,Glowing,Beast Boost,ELECTRIC,GROUND,
+Celesteela,797,9.2,999.9,Launch,Beast Boost,STEEL;FLYING,ELECTRIC;FIRE,
+Kartana,798,0.3,0.1,Drawn Sword,Beast Boost,GRASS;STEEL,FIGHTING;FIRE,
+Guzzlord,799,5.5,888.0,Junkivore,Beast Boost,DARK;DRAGON,ICE;FIGHTING;DRAGON;FAIRY;BUG,
+Necrozma,800,2.4,230.0,Prism,Prism Armor,PSYCHIC;STEEL;GHOST;DRAGON,GHOST;BUG;DARK,
+Magearna,801,1.0,80.5,Artificial,Soul-Heart,STEEL;FAIRY,GROUND;FIRE,
+Marshadow,802,0.7,22.2,Gloomdweller,Technician,FIGHTING;GHOST,GHOST;PSYCHIC;FAIRY;FLYING,
+Poipole,803,0.6,1.8,Poison Pin,Beast Boost,POISON,PSYCHIC;GROUND,Naganadel
+Naganadel,804,3.6,150.0,Poison Pin,Beast Boost,POISON;DRAGON,ICE;DRAGON;PSYCHIC;GROUND,
+Stakataka,805,5.5,820.0,Rampart,Beast Boost,ROCK;STEEL,FIGHTING;WATER;GROUND,
+Blacephalon,806,1.8,13.0,Fireworks,Beast Boost,FIRE;GHOST,GHOST;ROCK;WATER;GROUND;DARK,
+Zeraora,807,1.5,44.5,Thunderclap,Volt Absorb,ELECTRIC,GROUND,
+Meltan,808,0.2,8.0,Hex Nut,Magnet Pull,STEEL,FIGHTING;GROUND;FIRE,Melmetal
+Melmetal,809,2.5,800.0,Hex Nut,Iron Fist,STEEL,FIGHTING;GROUND;FIRE,
+Grookey,810,0.3,5.0,Chimp,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Thwackey;Rillaboom
+Thwackey,811,0.7,14.0,Beat,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,Rillaboom
+Rillaboom,812,2.1,90.0,Drummer,Overgrow,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Scorbunny,813,0.3,4.5,Rabbit,Blaze,FIRE,ROCK;WATER;GROUND,Raboot;Cinderace
+Raboot,814,0.6,9.0,Rabbit,Blaze,FIRE,ROCK;WATER;GROUND,Cinderace
+Cinderace,815,1.4,33.0,Striker,Blaze,FIRE,ROCK;WATER;GROUND,
+Sobble,816,0.3,4.0,Water Lizard,Torrent,WATER,ELECTRIC;GRASS,Drizzile;Inteleon
+Drizzile,817,0.7,11.5,Water Lizard,Torrent,WATER,ELECTRIC;GRASS,Inteleon
+Inteleon,818,1.9,45.2,Secret Agent,Torrent,WATER,ELECTRIC;GRASS,
+Skwovet,819,0.3,2.5,Cheeky,Cheek Pouch,NORMAL,FIGHTING,Greedent
+Greedent,820,0.6,6.0,Greedy,Cheek Pouch,NORMAL,FIGHTING,
+Rookidee,821,0.2,1.8,Tiny Bird,Keen Eye;Unnerve,FLYING,ELECTRIC;ICE;ROCK,Corvisquire;Corviknight
+Corvisquire,822,0.8,16.0,Raven,Keen Eye;Unnerve,FLYING,ELECTRIC;ICE;ROCK,Corviknight
+Corviknight,823,2.2,75.0,Raven,Unnerve;Pressure,FLYING;STEEL,ELECTRIC;FIRE,
+Blipbug,824,0.4,8.0,Larva,Swarm;Compound Eyes,BUG,ROCK;FLYING;FIRE,Dottler;Orbeetle
+Dottler,825,0.4,19.5,Radome,Swarm;Compound Eyes,BUG;PSYCHIC,GHOST;ROCK;BUG;FLYING;FIRE;DARK,Orbeetle
+Orbeetle,826,0.4,40.8,Seven Spot,Swarm;Frisk,BUG;PSYCHIC,GHOST;ROCK;BUG;FLYING;FIRE;DARK,
+Nickit,827,0.6,8.9,Fox,Run Away;Unburden,DARK,FIGHTING;FAIRY;BUG,Thievul
+Thievul,828,1.2,19.9,Fox,Run Away;Unburden,DARK,FIGHTING;FAIRY;BUG,
+Gossifleur,829,0.4,2.2,Flowering,Regenerator;Cotton Down,GRASS,ICE;BUG;FLYING;FIRE;POISON,Eldegoss
+Eldegoss,830,0.5,2.5,Cotton Bloom,Regenerator;Cotton Down,GRASS,ICE;BUG;FLYING;FIRE;POISON,
+Wooloo,831,0.6,6.0,Sheep,Fluffy;Run Away,NORMAL,FIGHTING,Dubwool
+Dubwool,832,1.3,43.0,Sheep,Fluffy;Steadfast,NORMAL,FIGHTING,
+Chewtle,833,0.3,8.5,Snapping,Strong Jaw;Shell Armor,WATER,ELECTRIC;GRASS,Drednaw
+Drednaw,834,1.0,115.5,Bite,Strong Jaw;Shell Armor,WATER;ROCK,ELECTRIC;FIGHTING;GROUND;GRASS,
+Yamper,835,0.3,13.5,Puppy,Ball Fetch,ELECTRIC,GROUND,Boltund
+Boltund,836,1.0,34.0,Dog,Strong Jaw,ELECTRIC,GROUND,
+Rolycoly,837,0.3,12.0,Coal,Heatproof;Steam Engine,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,Carkol;Coalossal
+Carkol,838,1.1,78.0,Coal,Flame Body;Steam Engine,ROCK;FIRE,ROCK;FIGHTING;WATER;GROUND,Coalossal
+Coalossal,839,2.8,310.5,Coal,Flame Body;Steam Engine,ROCK;FIRE,ROCK;FIGHTING;WATER;GROUND,
+Applin,840,0.2,0.5,Apple Core,Ripen;Gluttony,GRASS;DRAGON,ICE;DRAGON;FAIRY;BUG;FLYING;POISON,Flapple;Appletun
+Flapple,841,0.3,1.0,Apple Wing,Ripen;Gluttony,GRASS;DRAGON,ICE;DRAGON;FAIRY;BUG;FLYING;POISON,Appletun
+Appletun,842,0.4,13.0,Apple Nectar,Ripen;Gluttony,GRASS;DRAGON,ICE;DRAGON;FAIRY;BUG;FLYING;POISON,
+Silicobra,843,2.2,7.6,Sand Snake,Shed Skin;Sand Spit,GROUND,ICE;WATER;GRASS,Sandaconda
+Sandaconda,844,3.8,65.5,Sand Snake,Shed Skin;Sand Spit,GROUND,ICE;WATER;GRASS,
+Cramorant,845,0.8,18.0,Gulp,Gulp Missile,FLYING;WATER,ELECTRIC;ROCK,
+Arrokuda,846,0.5,1.0,Rush,Swift Swim,WATER,ELECTRIC;GRASS,Barraskewda
+Barraskewda,847,1.3,30.0,Skewer,Swift Swim,WATER,ELECTRIC;GRASS,
+Toxel,848,0.4,11.0,Baby,Rattled;Static,ELECTRIC;POISON,PSYCHIC;GROUND,Toxtricity
+Toxtricity,849,1.6,40.0,Punk,Punk Rock;Minus,ELECTRIC;POISON,PSYCHIC;GROUND,
+Sizzlipede,850,0.7,1.0,Radiator,White Smoke;Flash Fire,FIRE;BUG,ROCK;WATER;FLYING,Centiskorch
+Centiskorch,851,3.0,120.0,Radiator,White Smoke;Flash Fire,FIRE;BUG,ROCK;WATER;FLYING,
+Clobbopus,852,0.6,4.0,Tantrum,Limber,FIGHTING,PSYCHIC;FAIRY;FLYING,Grapploct
+Grapploct,853,1.6,39.0,Jujitsu,Limber,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Sinistea,854,0.1,0.2,Black Tea,Weak Armor,GHOST,GHOST;DARK,Polteageist
+Polteageist,855,0.2,0.4,Black Tea,Weak Armor,GHOST,GHOST;DARK,
+Hatenna,856,0.4,3.4,Calm,Anticipation;Healer,PSYCHIC,GHOST;BUG;DARK,Hattrem;Hatterene
+Hattrem,857,0.6,4.8,Serene,Anticipation;Healer,PSYCHIC,GHOST;BUG;DARK,Hatterene
+Hatterene,858,2.1,5.1,Silent,Anticipation;Healer,PSYCHIC;FAIRY,GHOST;STEEL;POISON,
+Impidimp,859,0.4,5.5,Wily,Frisk;Prankster,DARK;FAIRY,FAIRY;STEEL;POISON,Morgrem;Grimmsnarl
+Morgrem,860,0.8,12.5,Devious,Frisk;Prankster,DARK;FAIRY,FAIRY;STEEL;POISON,Grimmsnarl
+Grimmsnarl,861,1.5,61.0,Bulk Up,Frisk;Prankster,DARK;FAIRY,FAIRY;STEEL;POISON,
+Obstagoon,862,1.6,46.0,Blocking,Guts;Reckless,DARK;NORMAL,FIGHTING;FAIRY;BUG,
+Perrserker,863,0.8,28.0,Viking,Battle Armor;Tough Claws,STEEL,FIGHTING;GROUND;FIRE,
+Cursola,864,1.0,0.4,Coral,Weak Armor,GHOST,GHOST;DARK,
+Sirfetch'd,865,0.8,117.0,Wild Duck,Steadfast,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Mr. Rime,866,1.5,58.2,Comedian,Screen Cleaner;Tangled Feet,ICE;PSYCHIC,GHOST;ROCK;BUG;STEEL;FIRE;DARK,
+Runerigus,867,1.6,66.6,Grudge,Wandering Spirit,GROUND;GHOST,GHOST;ICE;WATER;DARK;GRASS,
+Milcery,868,0.2,0.3,Cream,Sweet Veil,FAIRY,STEEL;POISON,Alcremie
+Alcremie,869,0.3,0.5,Cream,Sweet Veil,FAIRY,STEEL;POISON,
+Falinks,870,3.0,62.0,Formation,Battle Armor,FIGHTING,PSYCHIC;FAIRY;FLYING,
+Pincurchin,871,0.3,1.0,Sea Urchin,Lightning Rod,ELECTRIC,GROUND,
+Snom,872,0.3,3.8,Worm,Shield Dust,ICE;BUG,ROCK;STEEL;FLYING;FIRE,Frosmoth
+Frosmoth,873,1.3,42.0,Frost Moth,Shield Dust,ICE;BUG,ROCK;STEEL;FLYING;FIRE,
+Stonjourner,874,2.5,520.0,Big Rock,Power Spot,ROCK,FIGHTING;WATER;STEEL;GROUND;GRASS,
+Eiscue,875,1.4,89.0,Penguin,Ice Face,ICE,ROCK;FIGHTING;STEEL;FIRE,
+Indeedee,876,0.9,28.0,Emotion,Synchronize;Inner Focus,PSYCHIC;NORMAL,BUG;DARK,
+Morpeko,877,0.3,3.0,Two-Sided,Hunger Switch,ELECTRIC;DARK,FIGHTING;FAIRY;BUG;GROUND,
+Cufant,878,1.2,100.0,Copperderm,Sheer Force,STEEL,FIGHTING;GROUND;FIRE,Copperajah
+Copperajah,879,3.0,650.0,Copperderm,Sheer Force,STEEL,FIGHTING;GROUND;FIRE,
+Dracozolt,880,1.8,190.0,Fossil,Hustle;Volt Absorb,ELECTRIC;DRAGON,ICE;DRAGON;FAIRY;GROUND,
+Arctozolt,881,2.3,150.0,Fossil,Static;Volt Absorb,ELECTRIC;ICE,ROCK;FIGHTING;GROUND;FIRE,
+Dracovish,882,2.3,215.0,Fossil,Water Absorb;Strong Jaw,WATER;DRAGON,DRAGON;FAIRY,
+Arctovish,883,2.0,175.0,Fossil,Water Absorb;Ice Body,WATER;ICE,ELECTRIC;ROCK;FIGHTING;GRASS,
+Duraludon,884,1.8,40.0,Alloy,Heavy Metal;Light Metal,STEEL;DRAGON,FIGHTING;GROUND,
+Dreepy,885,0.5,2.0,Lingering,Clear Body;Infiltrator,DRAGON;GHOST,GHOST;ICE;DRAGON;FAIRY;DARK,Drakloak;Dragapult
+Drakloak,886,1.4,11.0,Caretaker,Clear Body;Infiltrator,DRAGON;GHOST,GHOST;ICE;DRAGON;FAIRY;DARK,Dragapult
+Dragapult,887,3.0,50.0,Stealth,Clear Body;Infiltrator,DRAGON;GHOST,GHOST;ICE;DRAGON;FAIRY;DARK,
+Zacian,888,2.8,110.0,Warrior,Intrepid Sword,FAIRY;STEEL,STEEL;POISON,
+Zamazenta,889,2.9,210.0,Warrior,Dauntless Shield,FIGHTING;STEEL,PSYCHIC;FAIRY;FLYING,
+Eternatus,890,20.0,950.0,Gigantic,Pressure,POISON;DRAGON,ICE;DRAGON;PSYCHIC;GROUND,
+Kubfu,891,0.6,12.0,Wushu,Inner Focus,FIGHTING,PSYCHIC;FAIRY;FLYING,Urshifu
+Urshifu,892,1.9,105.0,Wushu,Unseen Fist,FIGHTING;DARK;WATER,FIGHTING;FAIRY;FLYING,
+Zarude,893,1.8,70.0,Rogue Monkey,Leaf Guard,DARK;GRASS,ICE;FIGHTING;FAIRY;BUG;FLYING;FIRE;POISON,
+Regieleki,894,1.2,145.0,Electron,Transistor,ELECTRIC,GROUND,
+Regidrago,895,2.1,200.0,Dragon Orb,Dragon's Maw,DRAGON,ICE;DRAGON;FAIRY,
+Glastrier,896,2.2,800.0,Wild Horse,Chilling Neigh,ICE,ROCK;FIGHTING;STEEL;FIRE,
+Spectrier,897,2.0,44.5,Swift Horse,Grim Neigh,GHOST,GHOST;DARK,
+Calyrex,898,1.1,7.7,King,Unnerve,PSYCHIC;GRASS;ICE;GHOST,GHOST;ICE;BUG;FLYING;FIRE;DARK;POISON,
+Wyrdeer,899,1.8,95.1,Big Horn,,NORMAL;PSYCHIC,BUG;DARK,
+Kleavor,900,1.8,89.0,Axe,,BUG;ROCK,ROCK;STEEL;WATER,
+Ursaluna,901,2.4,290.0,Peat,,GROUND;NORMAL,ICE;FIGHTING;WATER;GRASS,
+Basculegion,902,3.0,110.0,Big Fish,,WATER;GHOST,GHOST;ELECTRIC;DARK;GRASS,
+Sneasler,903,1.3,43.0,Free Climb,,FIGHTING;POISON,PSYCHIC;FLYING;GROUND,
+Overqwil,904,2.5,60.5,Pin Cluster,,DARK;POISON,GROUND,
+Enamorus,905,1.6,48.0,Love-Hate,,FAIRY;FLYING,ELECTRIC;ICE;ROCK;STEEL;POISON,

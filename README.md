@@ -33,15 +33,25 @@ Starting from java 8 up to 11
 
 #### Stream
 - filter method
+  - Search for Stream_Filter
 - map
+  - Search for Stream_Map
 - allMatch
+  - Search for Stream_AllMatch
 - anyMatch
+  - Search for Stream_AnyMatch
 - reduce numbers
+  - Search for Stream_Reduce_Number
 - reduce strings
+  - Search for Stream_Reduce_Strings
 - joining
+  - Search for Stream_Joining
 - groupingBy
+  - Search for Stream_GroupingBy
 - partitioningBy
+  - Search for Stream_PartitioningBy
 - toMap
+  - Search for Stream_ToMap
 
 #### HTTP
 - Simple structure
@@ -66,7 +76,9 @@ Starting from java 8 up to 11
 #### Stream
 - Index based loop
 - dropWhile
+  - Search for Stream_DropWhile
 - takeWhile
+  - Search for Stream_TakeWhile
 
 ### Java 11
 #### String
@@ -74,3 +86,4 @@ Starting from java 8 up to 11
 - lines
 - repeat string
 - striping
+- join
