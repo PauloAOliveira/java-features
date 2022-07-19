@@ -8,7 +8,10 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -26,6 +29,46 @@ public class PokemonRepository {
 
     public static List<Pokemon> findAll() {
         return pokemons;
+    }
+
+    /**
+     * Futures_Complete_async
+     * */
+    public static CompletableFuture<Optional<Pokemon>> findByName(final String name) {
+        final var future = new CompletableFuture<Optional<Pokemon>>();
+        return future.completeAsync(() -> {
+            waiting();
+            return pokemons.stream().filter(p -> name.equals(p.getName())).findAny();
+        });
+    }
+
+    /**
+     * Futures_Complete_async
+     * Futures_Delay
+     * */
+    public static CompletableFuture<Optional<Pokemon>> findByNameWithDelay(final String name) {
+        final var future = new CompletableFuture<Optional<Pokemon>>();
+        return future.completeAsync(() -> {
+            waiting();
+            return pokemons.stream().filter(p -> name.equals(p.getName())).findAny();
+        }, CompletableFuture.delayedExecutor(1, TimeUnit.SECONDS));
+    }
+
+    /**
+     * Futures_ThenApply
+     * Optional_Map
+     * Optional_OrElse
+     * */
+    public static CompletableFuture<List<String>> findEvolutionsByName(final String name) {
+        return findByName(name).thenApply(p -> p.map(Pokemon::getEvolutions).orElse(Collections.emptyList()));
+    }
+
+    private static void waiting() {
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ignored) {
+
+        }
     }
 
     private static List<Pokemon> load() throws IOException {

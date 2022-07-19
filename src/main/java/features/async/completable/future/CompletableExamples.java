@@ -11,72 +11,11 @@ public class CompletableExamples {
     private static final Random RANDOM = new Random();
 
     public static void main(String[] args) throws Exception {
-        simpleCompleteCase();
-        simpleCompleteAsyncCase();
-        simpleDelayCase();
-        simpleAcceptCase();
         simpleExceptionCase();
         simpleHandleCase();
         simpleCombinedCase();
         simpleEitherCase();
         getAllOf();
-    }
-
-    private static void simpleCompleteCase() throws InterruptedException, TimeoutException, ExecutionException {
-        System.out.println("simpleCompleteCase");
-        CompletableFuture<Integer> future = new CompletableFuture<>();
-
-        ExecutorService executorService = Executors.newSingleThreadExecutor();
-        executorService.submit(() -> {
-            int userId = getUserId();
-            future.complete(userId);
-        });
-
-        await(future, 6000);
-        Integer resp = future.get();
-        System.out.println("User: "+resp);
-        executorService.shutdown();
-        System.out.println();
-    }
-
-    /**
-     * Works only on Java 9
-     * */
-    private static void simpleCompleteAsyncCase() throws InterruptedException, TimeoutException, ExecutionException {
-        System.out.println("simpleCompleteAsynCase");
-        CompletableFuture<Integer> future = new CompletableFuture<>();
-        future.completeAsync(CompletableExamples::getUserId);
-
-        await(future, 6000);
-        Integer resp = future.get();
-        System.out.println("User: "+resp);
-        System.out.println();
-    }
-
-    /**
-     * Works only on Java 9
-     * */
-    private static void simpleDelayCase() throws InterruptedException, TimeoutException, ExecutionException {
-        System.out.println("simpleDelayCase");
-        System.out.println(LocalDateTime.now());
-        CompletableFuture<Void> future = CompletableFuture.supplyAsync(() -> {
-            System.out.println(LocalDateTime.now());
-            waiting();
-            return 1;
-        }, CompletableFuture.delayedExecutor(10, TimeUnit.SECONDS))
-                .thenAccept(id -> System.out.println("Finished with delay"));
-
-        await(future, 16000);
-        System.out.println();
-    }
-
-    private static void simpleAcceptCase() throws InterruptedException, TimeoutException, ExecutionException {
-        System.out.println("simpleAcceptCase");
-        CompletableFuture<Void> future = CompletableFuture.supplyAsync(CompletableExamples::getUserId)
-                .thenAccept(id -> System.out.println("Finished getting id = " + id));
-
-        await(future, 6000);
-        System.out.println();
     }
 
     private static void simpleExceptionCase() throws InterruptedException, TimeoutException, ExecutionException {

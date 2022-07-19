@@ -1,6 +1,6 @@
 package features.async.reactive;
 
-import com.jayway.awaitility.Awaitility;
+import org.awaitility.Awaitility;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;

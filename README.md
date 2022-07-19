@@ -5,11 +5,16 @@ Starting from java 8 up to 11
 ## Features
 ### Java 8
 #### Completable futures
-- Simple completable future
 - Simple accept
+  - Search for Future_ThenAccept
+- Simply apply
+  - Search for Futures_ThenApply
+- Delay execution
+  - Search for Futures_Delay
 - Handling exception
 - Handling result, either with success or exceptionally
 - Combine futures
+  - Search for Future_Combine
 - Finish from any of futures
 - Finish with all of futures
 
@@ -24,11 +29,12 @@ Starting from java 8 up to 11
 - Zones
 
 #### Optional
-- Simple structure
 - ifPresent method
 - filter
 - orElse
+  - Search for Optional_OrElse
 - map
+  - Search for Optional_Map
 - flatMap
 
 #### Stream
@@ -59,11 +65,11 @@ Starting from java 8 up to 11
 ### Java 9
 #### Completable futures
 - Complete async
+  - Search for Futures_Complete_async
 - Delayed execution
 
 #### Collections
 - List factory methods
-  - Search for List_Factory
 - Set factory methods
 - Map factorey methods
 
@@ -75,7 +81,6 @@ Starting from java 8 up to 11
 - ifPresentOrElse method
 
 #### Stream
-- Index based loop
 - dropWhile
   - Search for Stream_DropWhile
 - takeWhile
